@@ -1,0 +1,29 @@
+@model MotiZone.Models.Service
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section class="py-5">
+    <div class="container">
+        <div class="card shadow-sm">
+            <div class="card-header bg-info text-white fw-bold">
+                @ViewData["Title"]
+            </div>
+            <div class="card-body">
+                <dl class="row">
+                    <dt class="col-sm-3">Service Name</dt>
+                    <dd class="col-sm-9">@Model.Name</dd>
+
+                    <dt class="col-sm-3">Service Description</dt>
+                    <dd class="col-sm-9">@Model.Description</dd>
+
+                    <!-- Add more properties as needed -->
+                </dl>
+
+                <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-primary">Edit</a>
+                <a asp-action="Index" class="btn btn-secondary">Back</a>
+            </div>
+        </div>
+    </div>
+</section>

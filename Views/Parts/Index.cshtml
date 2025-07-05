@@ -1,0 +1,67 @@
+@model MotiZone.Models.ViewModels.PartListViewModel
+
+@{
+    ViewData["Title"] = "Vehicle Parts";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var isAdmin = User.IsInRole("Admin");
+}
+
+<section class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center text-primary fw-bold mb-4">Available Vehicle Parts</h2>
+        <form method="get" class="mb-4">
+            <div class="row g-3">
+                <div class="col-md-3">
+                    <input type="text" name="Name" class="form-control" placeholder="Name" value="@Model.Name" />
+                </div>
+                <div class="col-md-3">
+                    <input type="text" name="Description" class="form-control" placeholder="Description" value="@Model.Description" />
+                </div>
+                <div class="col-md-2">
+                    <input type="number" name="Price" class="form-control" placeholder="Price" value="@Model.Price" />
+                </div>
+                <div class="col-md-2">
+                    <button type="submit" class="btn btn-primary">Filter</button>
+                </div>
+            </div>
+        </form>
+        
+        @if (!Model.Parts.Any())
+        {
+            <div class="alert alert-info text-center">No parts available at the moment.</div>
+        }
+        else
+        {
+            <div class="row">
+                @foreach (var part in Model.Parts)
+                {
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 shadow-sm">
+                            <img src="~/images/shop/shop.jpg" class="card-img-top" alt="@part.Name" />
+                            <div class="card-body">
+                                <h5 class="card-title">@($"{part.Name} {part.Category}")</h5>
+                                <p class="card-text">@part.Description</p>
+                                <p class="fw-bold text-success">@part.Price.ToString("C")</p>
+                                <a class="btn btn-outline-primary" 
+                                   asp-controller="Parts"
+                                   asp-route-id="@part.Id">View</a>
+
+                                @if (isAdmin)
+                                {
+                                    <a class="btn btn-outline-secondary ms-2" asp-action="Edit" asp-route-id="@part.Id">Edit</a>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        }
+
+        @if (isAdmin)
+        {
+            <div class="text-end mt-4">
+                <a asp-action="Create" class="btn btn-success rounded-pill">+ Add New Part</a>
+            </div>
+        }
+    </div>
+</section>

@@ -1,0 +1,18 @@
+@model MotiZone.Models.Order
+
+<h2>Order Details - #@Model.Id</h2>
+<p>Status: <strong>@Model.Status</strong></p>
+<p>Date: @Model.OrderDate.ToShortDateString()</p>
+<p>Total: @Model.TotalAmount.ToString("C")</p>
+
+<h4>Items</h4>
+<ul class="list-group">
+    @foreach (var item in Model.Items)
+    {
+        <li class="list-group-item">
+            @(item.Vehicle?.Make + " " + item.Vehicle?.Model ?? item.Part?.Name) <br />
+            Quantity: @item.Quantity<br />
+            Price: @item.Price.ToString("C")
+        </li>
+    }
+</ul>

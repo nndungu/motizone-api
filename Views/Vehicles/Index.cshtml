@@ -1,0 +1,63 @@
+@model MotiZone.Models.ViewModels.VehicleViewModel
+@{
+    ViewData["Title"] = "Browse Vehicles";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var isAdmin = User.IsInRole("Admin");
+}
+
+<section class="py-5 bg-light">
+    <div class="container">
+        <h2 class="mb-4 text-primary fw-bold text-center">Browse Vehicles</h2>
+        <form method="get" class="mb-4">
+            <div class="row g-3">
+                <div class="col-md-3">
+                    <input type="text" name="Make" class="form-control" placeholder="Make" value="@Model.Make" />
+                </div>
+                <div class="col-md-3">
+                    <input type="text" name="Model" class="form-control" placeholder="Model" value="@Model.Model" />
+                </div>
+                <div class="col-md-2">
+                    <input type="number" name="Year" class="form-control" placeholder="Year" value="@Model.Year" />
+                </div>
+                <div class="col-md-2">
+                    <button type="submit" class="btn btn-primary">Filter</button>
+                </div>
+            </div>
+        </form>
+
+        @if (Model.Vehicles?.Any() ?? false)
+        {
+            <div class="row">
+                @foreach (var vehicle in Model.Vehicles)
+                {
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 shadow-sm">
+                            <img src="~/images/vehicles/car-placeholder.jpg" class="card-img-top" alt="@vehicle.Name"/>
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <a asp-controller="Vehicles" asp-action="Details" asp-route-id="@vehicle.Id">
+                                        @($"{vehicle.Make} {vehicle.Model}")
+                                    </a>
+                                </h5>
+                                <p class="card-text">Year: @vehicle.Year</p>
+                                <p class="fw-bold text-success">@vehicle.Price.ToString("C")</p>
+                                <a class="btn btn-outline-primary rounded-pill"
+                                   asp-controller="Cart"
+                                   asp-route-id="@vehicle.Id">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        }
+        @if (isAdmin)
+        {
+            <div class="text-end mt-4"></div>
+            <a asp-action="Create" class="btn btn-success rounded-pill">+ Add New Vehicle</a>
+        }
+        else
+        {
+            <p>No vehicles found with the selected filters.</p>
+        }
+    </div>
+</section>

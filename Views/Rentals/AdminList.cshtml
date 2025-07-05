@@ -1,0 +1,38 @@
+@model List<MotiZone.Models.Rental>
+@{
+    ViewData["Title"] = "Manage Rentals";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Admin - Rentals</h2>
+
+<p><a asp-action="Create" class="btn btn-primary">Create New Rental</a></p>
+
+<table class="table">
+    <thead>
+    <tr>
+        <th>Vehicle</th>
+        <th>Status</th>
+        <th>Price</th>
+        <th>Start Date</th>
+        <th>Actions</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var rental in Model)
+    {
+        <tr>
+            <td>@rental.Vehicle?.Make @rental.Vehicle?.Model</td>
+            <td>@rental.Status</td>
+            <td>@rental.TotalCost</td>
+            <td>@rental.StartDate.ToShortDateString()</td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@rental.Id" class="btn btn-sm btn-warning">Edit</a>
+                <form asp-action="CancelRental" asp-route-id="@rental.Id" method="post" style="display:inline;">
+                    <button type="submit" class="btn btn-sm btn-danger">Delete</button>
+                </form>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>

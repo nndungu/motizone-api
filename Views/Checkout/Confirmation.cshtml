@@ -1,0 +1,23 @@
+@model MotiZone.Models.Order
+
+@{
+    ViewData["Title"] = "Confirm";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Order Confirmation</h2>
+<p>Order ID: @Model.Id</p>
+<p>Status: @Model.Status</p>
+<p>Total: @Model.TotalAmount.ToString("C")</p>
+
+<h4>Items</h4>
+<ul>
+    @foreach (var item in Model.Items)
+    {
+        <li>
+            @(item.Vehicle?.Make + " " + item.Vehicle?.Model ?? item.Part?.Name) -
+            Quantity: @item.Quantity -
+            Price: @item.Price.ToString("C")
+        </li>
+    }
+</ul>

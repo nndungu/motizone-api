@@ -1,0 +1,116 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <!-- ASP.NET Core 8 -->
+        <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.5" />
+        <PackageReference Include="Microsoft.AspNetCore.Authorization" Version="8.0.5" />
+        <PackageReference Include="Microsoft.AspNetCore.DataProtection" Version="8.0.5" />
+        <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.5" />
+        <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="9.0.5" />
+        <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="8.0.5" />
+
+        <!-- EF Core 8 (required by Pomelo 8) -->
+        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.5" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.5">
+            <PrivateAssets>all</PrivateAssets>
+        </PackageReference>
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.5">
+            <PrivateAssets>all</PrivateAssets>
+        </PackageReference>
+
+
+        <!-- MySQL support -->
+        <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="8.0.0" />
+        <PackageReference Include="QuestPDF" Version="2025.5.0" />
+
+        <!-- Other utilities -->
+        <PackageReference Include="SendGrid" Version="9.29.3" />
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="8.1.1" />
+        <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.10.0" />
+
+        <!-- Testing -->
+        <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.13.0" />
+        <PackageReference Include="Moq" Version="4.20.72" />
+        <PackageReference Include="xunit" Version="2.9.3" />
+        <PackageReference Include="xunit.runner.visualstudio" Version="3.1.0">
+            <PrivateAssets>all</PrivateAssets>
+        </PackageReference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="Views\Shop\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Services\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Rentals\Book.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Rentals\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Parts\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Home\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Home\Privacy.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Financing\Apply.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Customizations\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Checkout\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Checkout\Success.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Cart\AddPart.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Cart\AddVehicle.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Cart\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Admin\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Admin\Rentals\Create.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Admin\Rentals\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Admin\Users\Edit.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Admin\Users\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Admin\Vehicles\Create.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Admin\Vehicles\Delete.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Admin\Vehicles\Edit.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Admin\Vehicles\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Account\AccessDenied.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Account\ConfirmEmail.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Account\ForgotPassword.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Account\Login.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Account\Logout.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Account\MyAccount.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Account\Register.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Account\RegisterConfirmation.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Account\ResetPassword.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Account\ResetPasswordConfirmation.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Cars\Details.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Cars\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Home\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Home\Privacy.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Cars\Details.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Cars\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Customizations\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Parts\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Admin\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Admin\Rentals\Create.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Admin\Rentals\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Admin\Users\Edit.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Admin\Users\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Admin\Vehicles\Create.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Admin\Vehicles\Delete.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Admin\Vehicles\Edit.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Admin\Vehicles\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Services\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Account\AccessDenied.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Account\ConfirmEmail.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Account\ForgotPassword.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Account\Login.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Account\Logout.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Account\MyAccount.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Account\Register.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Account\RegisterConfirmation.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Account\ResetPassword.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Account\ResetPasswordConfirmation.cshtml" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <AdditionalFiles Include="Pages\Financing\Apply.cshtml" />
+      <AdditionalFiles Include="Views\AdminViews\AdminOrders\Details.cshtml" />
+      <AdditionalFiles Include="Views\AdminViews\AdminOrders\Index.cshtml" />
+    </ItemGroup>
+
+</Project>

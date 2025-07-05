@@ -1,0 +1,16 @@
+@model MotiZone.Models.Vehicle
+@{
+    ViewData["Title"] = "Delete Vehicle";
+}
+
+<h2>Delete Vehicle</h2>
+
+<div class="alert alert-warning">
+    <p>Are you sure you want to delete <strong>@Model.Name</strong>?</p>
+</div>
+
+<form asp-action="DeleteConfirmed" method="post">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Delete</button>
+    <a asp-action="Index" class="btn btn-secondary ms-2">Cancel</a>
+</form>

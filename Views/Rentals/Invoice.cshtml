@@ -1,0 +1,7 @@
+@model MotiZone.Models.Rental
+
+<h2>Rental Invoice</h2>
+<p>Vehicle: @Model.Vehicle?.Make @Model.Vehicle?.Model</p>
+<p>Total Price: @Model.TotalCost</p>
+<p>Status: @Model.Status</p>
+<p>Start Date: @Model.StartDate.ToShortDateString()</p>

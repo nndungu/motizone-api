@@ -1,0 +1,34 @@
+@model MotiZone.Models.Rental
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section class="py-5">
+    <div class="container">
+        <div class="card shadow-sm">
+            <div class="card-header bg-primary text-white fw-bold">
+                @ViewData["Title"]
+            </div>
+            <div class="card-body">
+                <form asp-action="@ViewData["FormAction"]" method="post">
+                    <div class="mb-3">
+                        <label asp-for="User" class="form-label"></label>
+                        <input asp-for="User" class="form-control" />
+                        <span asp-validation-for="User" class="text-danger"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label asp-for="Vehicle" class="form-label"></label>
+                        <input asp-for="Vehicle" class="form-control" />
+                        <span asp-validation-for="Vehicle" class="text-danger"></span>
+                    </div>
+
+                    <!-- Repeat above block for each form field -->
+
+                    <button type="submit" class="btn btn-success">Save</button>
+                    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,49 @@
+@model List<MotiZone.Models.Order>
+
+@{
+    ViewData["Title"] = "Your Orders";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Your Orders</h2>
+
+@if (Model == null || !Model.Any())
+{
+    <p>You have no orders yet.</p>
+}
+else
+{
+    foreach (var order in Model)
+    {
+        <div class="card mb-3">
+            <div class="card-header">
+                <strong>Order ID:</strong> @order.Id |
+                <strong>Date:</strong> @order.OrderDate.ToString("g")
+            </div>
+            <div class="card-body">
+                <ul class="list-group list-group-flush">
+                    @foreach (var item in order.Items)
+                    {
+                        <li class="list-group-item">
+                            @if (item.Vehicle != null)
+                            {
+                                <div>
+                                    <strong>Vehicle:</strong> @item.Vehicle.Make @item.Vehicle.Model
+                                    (@item.Price.ToString("C")) x @item.Quantity
+                                </div>
+                            }
+                            else if (item.Part != null)
+                            {
+                                <div>
+                                    <strong>Part:</strong> @item.Part.Name
+                                    (@item.Price.ToString("C")) x @item.Quantity
+                                </div>
+                            }
+                        </li>
+                    }
+                </ul>
+                <p class="fw-bold mt-3">Total: @order.TotalAmount.ToString("C")</p>
+            </div>
+        </div>
+    }
+}

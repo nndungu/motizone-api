@@ -1,0 +1,61 @@
+@model MotiZone.Models.ViewModels.CustomizationViewModel
+
+@{
+    ViewData["Title"] = "Vehicle Customizations";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section class="py-5">
+    <div class="container">
+        <div class="card shadow-sm">
+            <div class="card-header bg-primary text-white fw-bold">
+                Vehicle Customizations
+            </div>
+            <div class="card-body">
+                <form method="get" class="mb-4">
+                    <div class="row g-3 align-items-end">
+                        <div class="col-md-4">
+                            <label class="form-label fw-semibold">Type</label>
+                            <input type="text" name="type" class="form-control" placeholder="e.g. Interior, Paint" value="@Model.Type" />
+                        </div>
+                        <div class="col-md-5">
+                            <label class="form-label fw-semibold">Description</label>
+                            <input type="text" name="description" class="form-control" placeholder="e.g. Leather seats, racing stripes" value="@Model.Description" />
+                        </div>
+                        <div class="col-md-3">
+                            <button type="submit" class="btn btn-outline-primary w-100">Filter</button>
+                        </div>
+                    </div>
+                </form>
+
+                @if (Model.Customizations?.Any() ?? false)
+                {
+                    <div class="row">
+                        @foreach (var customization in Model.Customizations)
+                        {
+                            <div class="col-md-4 mb-4">
+                                <div class="card h-100 shadow-sm border">
+                                    <div class="card-body">
+                                        <h5 class="card-title">@customization.Type</h5>
+                                        <p class="card-text text-muted">@customization.Description</p>
+                                        <p class="fw-bold text-success">@customization.Price.ToString("C")</p>
+                                    </div>
+                                    <div class="card-footer bg-white border-top-0">
+                                        <a class="btn btn-outline-primary w-100"
+                                           asp-controller="Cart"
+                                           asp-action="AddCustomization"
+                                           asp-route-id="@customization.Id">Add to Cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                }
+                else
+                {
+                    <p class="text-muted">No customizations match your search.</p>
+                }
+            </div>
+        </div>
+    </div>
+</section>

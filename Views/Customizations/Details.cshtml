@@ -1,0 +1,27 @@
+@model MotiZone.Models.Customization
+
+@{
+ViewData["Title"] = "Customization Details";
+Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section class="py-5">
+    <div class="container">
+        <div class="card shadow-sm">
+            <div class="card-header bg-primary text-white fw-bold">
+                Customization Details
+            </div>
+            <div class="card-body">
+                <h4 class="card-title">@Model.Type</h4>
+                <p class="text-muted">@Model.Description</p>
+                <p class="fw-bold text-success">Price: @Model.Price.ToString("C")</p>
+            </div>
+            <div class="card-footer bg-white text-end">
+                <a class="btn btn-outline-primary"
+                   asp-controller="Cart"
+                   asp-action="AddCustomization"
+                   asp-route-id="@Model.Id">Add to Cart</a>
+            </div>
+        </div>
+    </div>
+</section>

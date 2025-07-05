@@ -1,0 +1,53 @@
+@model IEnumerable<MotiZone.Models.Rental>
+@{
+    ViewData["Title"] = "Available Rentals";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var isAdmin = User.IsInRole("Admin");
+}
+
+<section class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center text-primary fw-bold mb-4">Rental Vehicles</h2>
+
+        @if (!Model.Any())
+        {
+            <div class="alert alert-info text-center">
+                No rentals currently available.
+            </div>
+        }
+        else
+        {
+            <div class="row">
+                @foreach (var rental in Model)
+                {
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 shadow-sm">
+                            <img src="~/images/rentals/rental-car.jpg" class="card-img-top" alt="@rental.VehicleName" />
+                            <div class="card-body">
+                                <h5 class="card-title">@rental.VehicleName</h5>
+                                <p class="card-text">From: @rental.StartDate.ToShortDateString()</p>
+                                <p class="card-text">To: @rental.EndDate.ToShortDateString()</p>
+                                <p class="fw-bold text-success">@rental.TotalCost.ToString("C")</p>
+                                <a asp-action="Details" asp-route-id="@rental.Id" class="btn btn-outline-primary">Details</a>
+
+                                @if (isAdmin)
+                                {
+                                    <a asp-action="Edit" asp-route-id="@rental.Id" class="btn btn-outline-secondary ms-2">
+                                        Edit
+                                    </a>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        }
+
+        @if (isAdmin)
+        {
+            <div class="text-end mt-4">
+                <a asp-action="Create" class="btn btn-success rounded-pill">+ Add New Rental</a>
+            </div>
+        }
+    </div>
+</section>

@@ -1,0 +1,40 @@
+@model IEnumerable<MotiZone.Models.Customization>
+
+@{
+    ViewData["Title"] = "Manage Customizations";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section class="py-4">
+    <div class="container">
+        <div class="d-flex justify-content-between align-items-center mb-3">
+            <h2>Manage Customizations</h2>
+            <a class="btn btn-primary" asp-action="Create">+ Add New</a>
+        </div>
+
+        <table class="table table-hover table-bordered shadow-sm">
+            <thead class="table-light">
+            <tr>
+                <th>Type</th>
+                <th>Description</th>
+                <th>Price</th>
+                <th style="width: 150px;">Actions</th>
+            </tr>
+            </thead>
+            <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Type</td>
+                    <td>@item.Description</td>
+                    <td>@item.Price.ToString("C")</td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-outline-secondary">Edit</a>
+                        <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-sm btn-outline-info">View</a>
+                    </td>
+                </tr>
+            }
+            </tbody>
+        </table>
+    </div>
+</section>

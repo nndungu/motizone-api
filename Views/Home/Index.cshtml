@@ -1,0 +1,229 @@
+﻿@{
+    ViewData["Title"] = "Welcome";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- Carousel Section -->
+<div id="homeCarousel" class="carousel slide carousel-fade mb-5" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="2"></button>
+    </div>
+
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="~/images/shop/shop.jpg" class="d-block w-100" alt="Drive Your Dream" />
+            <div class="carousel-caption d-none d-md-block">
+                <h5 class="text-shadow">Drive Your Dream</h5>
+                <p class="text-shadow">Discover the latest vehicles at unbeatable prices.</p>
+                <a asp-controller="Shop" asp-action="Index" class="btn btn-primary">Explore Shop</a>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="~/images/vehicles/car-placeholder.jpg" class="d-block w-100" alt="Reliable Rentals" />
+            <div class="carousel-caption d-none d-md-block">
+                <h5 class="text-shadow">Reliable Rentals</h5>
+                <p class="text-shadow">Book your next ride with ease and flexibility.</p>
+                <a asp-controller="Rentals" asp-action="Index" class="btn btn-light">View Rentals</a>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="~/images/rentals/rental-car.jpg" class="d-block w-100" alt="Customize Your Ride" />
+            <div class="carousel-caption d-none d-md-block">
+                <h5 class="text-shadow">Custom. Unique. Yours.</h5>
+                <p class="text-shadow">Add your personality with our customization services.</p>
+                <a asp-controller="Customization" asp-action="Index" class="btn btn-success">Customize Now</a>
+            </div>
+        </div>
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#homeCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#homeCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </button>
+</div>
+
+<!-- Welcome Section -->
+<section class="py-5 bg-light text-center">
+    <div class="container">
+        <img src="~/images/moti.png" class="mb-3" width="80" alt="MotiZone Logo" />
+        <h1 class="display-5 fw-bold text-primary">Welcome to Motizone</h1>
+        <p class="lead text-secondary">Your ultimate destination for vehicle rentals and auto services.</p>
+        <div class="mt-4">
+            <a asp-controller="Shop" asp-action="Index" class="btn btn-outline-primary btn-lg me-2">Explore Shop</a>
+            <a asp-controller="Vehicles" asp-action="Index" class="btn btn-outline-dark btn-lg me-2">View Vehicles</a>
+            <a asp-controller="Orders" asp-action="Checkout" class="btn btn-success btn-lg">Checkout</a>
+        </div>
+    </div>
+</section>
+
+<!-- Services Section -->
+<section class="container py-5">
+    <div class="row text-center">
+        <div class="col-md-4 mb-4">
+            <img src="~/images/vehicles/car-placeholder.jpg" class="img-fluid rounded shadow-sm mb-3" />
+            <h5 class="fw-bold">Vehicles</h5>
+            <p class="text-muted">Browse a variety of cars and rentals available at competitive rates.</p>
+        </div>
+        <div class="col-md-4 mb-4">
+            <img src="~/images/rentals/rental-car.jpg" class="img-fluid rounded shadow-sm mb-3" />
+            <h5 class="fw-bold">Parts & Services</h5>
+            <p class="text-muted">Need a tune-up or replacement? We’ve got quality services you can trust.</p>
+        </div>
+        <div class="col-md-4 mb-4">
+            <img src="~/images/vehicles/car-placeholder.jpg" class="img-fluid rounded shadow-sm mb-3" />
+            <h5 class="fw-bold">Quick Checkout</h5>
+            <p class="text-muted">Ready to roll? Checkout your selected items and rentals quickly and securely.</p>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@*
+@{
+    ViewData["Title"] = "Welcome";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- Hero Section -->
+<section class="py-5 bg-light text-center border-bottom">
+    <div class="container">
+        <img src="~/images/vehicles/car-placeholder.jpg" class="mb-3" width="80" alt="MotiZone Logo" />
+        <h1 class="display-5 fw-bold text-primary">Welcome to MotiZone</h1>
+        <p class="lead text-secondary">Your ultimate destination for vehicle rentals and auto services.</p>
+        <div class="mt-4">
+            <a asp-controller="Shop" asp-action="Index" class="btn btn-outline-primary btn-lg me-2">Explore Shop</a>
+            <a asp-controller="Vehicles" asp-action="Index" class="btn btn-outline-dark btn-lg me-2">View Vehicles</a>
+            <a asp-controller="Orders" asp-action="Checkout" class="btn btn-success btn-lg">Checkout</a>
+        </div>
+    </div>
+</section>
+
+<!-- Services Cards -->
+<section class="py-5 bg-white">
+    <div class="container">
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card shadow-sm h-100 text-center">
+                    <img src="~/images/vehicles/car-placeholder.jpg" class="card-img-top" alt="Vehicles" />
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Vehicles</h5>
+                        <p class="card-text text-muted">Browse a variety of cars and rentals available at competitive rates.</p>
+                        <a asp-controller="Vehicles" asp-action="Index" class="btn btn-sm btn-outline-primary">Browse Vehicles</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow-sm h-100 text-center">
+                    <img src="~/images/rentals/rental-car.jpg" class="card-img-top" alt="Parts & Services" />
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Parts & Services</h5>
+                        <p class="card-text text-muted">Need a tune-up or replacement? We’ve got quality services you can trust.</p>
+                        <a asp-controller="Parts" asp-action="Index" class="btn btn-sm btn-outline-secondary">Explore Parts</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow-sm h-100 text-center">
+                    <img src="~/images/shop/shop.jpg" class="card-img-top" alt="Quick Checkout" />
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Quick Checkout</h5>
+                        <p class="card-text text-muted">Ready to roll? Checkout your selected items and rentals quickly and securely.</p>
+                        <a asp-controller="Orders" asp-action="Checkout" class="btn btn-sm btn-outline-success">Go to Checkout</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Featured Vehicles -->
+<section class="py-5 bg-light border-top border-bottom">
+    <div class="container text-center">
+        <h2 class="fw-bold mb-4">Featured Vehicles</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="~/images/vehicles/featured1.jpg" class="card-img-top" alt="Featured Car 1" />
+                    <div class="card-body">
+                        <h5 class="card-title">2023 Tesla Model Y</h5>
+                        <p class="card-text text-muted">Electric | AWD | Autopilot</p>
+                        <span class="fw-bold text-success">$54,900</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="~/images/vehicles/featured2.jpg" class="card-img-top" alt="Featured Car 2" />
+                    <div class="card-body">
+                        <h5 class="card-title">2022 Ford Mustang GT</h5>
+                        <p class="card-text text-muted">5.0L V8 | Manual | Sport Edition</p>
+                        <span class="fw-bold text-success">$43,500</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="~/images/vehicles/featured3.jpg" class="card-img-top" alt="Featured Car 3" />
+                    <div class="card-body">
+                        <h5 class="card-title">2023 Toyota RAV4 Hybrid</h5>
+                        <p class="card-text text-muted">Hybrid | FWD | Eco Smart</p>
+                        <span class="fw-bold text-success">$31,200</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Testimonials -->
+<section class="py-5 bg-white">
+    <div class="container text-center">
+        <h2 class="fw-bold mb-4">What Our Customers Say</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card shadow-sm p-3 h-100">
+                    <p class="text-muted">"Fantastic service! The rental process was seamless, and the car was in top condition."</p>
+                    <p class="fw-bold mb-0">– Sarah K.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow-sm p-3 h-100">
+                    <p class="text-muted">"I ordered parts and got them next day. Very reliable and easy checkout."</p>
+                    <p class="fw-bold mb-0">– Jamal R.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow-sm p-3 h-100">
+                    <p class="text-muted">"MotiZone's customization options helped make my car truly mine. Loved it!"</p>
+                    <p class="fw-bold mb-0">– Priya M.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Promo Banner -->
+<section class="bg-primary text-white py-5 text-center">
+    <div class="container">
+        <h2 class="fw-bold mb-3">💥 Summer Deals Are Here!</h2>
+        <p class="lead mb-4">Get up to 20% off select rentals and customizations through July.</p>
+        <a asp-controller="Shop" asp-action="Index" class="btn btn-light btn-lg">Shop Now</a>
+    </div>
+</section>
+*@

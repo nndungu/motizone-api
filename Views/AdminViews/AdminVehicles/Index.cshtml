@@ -1,0 +1,54 @@
+@model IEnumerable<MotiZone.Models.Vehicle>
+@{
+    ViewData["Title"] = "Manage Vehicles";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section class="py-5">
+    <div class="container">
+        <div class="card shadow-sm">
+            <div class="card-header d-flex justify-content-between align-items-center bg-primary text-white fw-bold">
+                Manage Vehicles
+                <a asp-action="Create" class="btn btn-sm btn-light">Add New Vehicle</a>
+            </div>
+            <div class="card-body">
+                @if (!Model.Any())
+                {
+                    <p>No vehicles available.</p>
+                }
+                else
+                {
+                    <table class="table table-hover">
+                        <thead class="table-light">
+                            <tr>
+                                <th>Make</th>
+                                <th>Model</th>
+                                <th>Year</th>
+                                <th>Price</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var vehicle in Model)
+                            {
+                                <tr>
+                                    <td>@vehicle.Make</td>
+                                    <td>@vehicle.Model</td>
+                                    <td>@vehicle.Year</td>
+                                    <td>@vehicle.Price.ToString("C")</td>
+                                    <td>
+                                        <a asp-action="Edit" asp-route-id="@vehicle.Id" class="btn btn-sm btn-outline-primary">Edit</a>
+                                        <a asp-action="Details" asp-route-id="@vehicle.Id" class="btn btn-sm btn-outline-info">View</a>
+                                        <form asp-action="Delete" asp-route-id="@vehicle.Id" method="post" class="d-inline">
+                                            <button type="submit" class="btn btn-sm btn-outline-danger" onclick="return confirm('Delete this vehicle?');">Delete</button>
+                                        </form>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                }
+            </div>
+        </div>
+    </div>
+</section>

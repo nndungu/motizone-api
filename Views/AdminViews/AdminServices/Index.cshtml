@@ -1,0 +1,43 @@
+@model IEnumerable<MotiZone.Models.Part>
+@{
+    ViewData["Title"] = "Manage Parts";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section class="py-5">
+    <div class="container">
+        <h2 class="text-primary fw-bold mb-4">Manage Vehicle Parts</h2>
+
+        <table class="table table-hover shadow-sm">
+            <thead class="table-light">
+            <tr>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Price</th>
+                <th class="text-end">Actions</th>
+            </tr>
+            </thead>
+            <tbody>
+            @foreach (var part in Model)
+            {
+                <tr>
+                    <td>@part.Name</td>
+                    <td>@part.Description</td>
+                    <td>@part.Price.ToString("C")</td>
+                    <td class="text-end">
+                        <a asp-action="Edit" asp-route-id="@part.Id" class="btn btn-sm btn-outline-secondary">Edit</a>
+                        <a asp-action="Details" asp-route-id="@part.Id" class="btn btn-sm btn-outline-info">Details</a>
+                        <form asp-action="Delete" asp-route-id="@part.Id" method="post" class="d-inline">
+                            <button type="submit" class="btn btn-sm btn-outline-danger" onclick="return confirm('Are you sure you want to delete this part?');">Delete</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+            </tbody>
+        </table>
+
+        <div class="text-end mt-3">
+            <a asp-action="Create" class="btn btn-success rounded-pill">+ Add New Part</a>
+        </div>
+    </div>
+</section>

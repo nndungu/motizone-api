@@ -1,0 +1,54 @@
+@model List<MotiZone.Models.ViewModels.OrderViewModel>
+
+@{
+    ViewData["Title"] = "Your Orders";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="mb-4">Your Orders</h2>
+
+@if (!Model.Any())
+{
+    <p>You have no orders.</p>
+}
+else
+{
+    @foreach (var order in Model)
+    {
+        <div class="card mb-4 shadow-sm">
+            <div class="card-header">
+                <strong>Order ID:</strong> @order.Id |
+                <strong>Date:</strong> @order.OrderDate.ToLocalTime().ToString("g")
+            </div>
+            <div class="card-body">
+                <ul>
+                    @foreach (var item in order.Items)
+                    {
+                        <li>
+                            @if (item.Vehicle != null)
+                            {
+                                <span>Vehicle: <strong>@item.Vehicle.Make @item.Vehicle.Model</strong> (@item.Price:C)</span>
+                            }
+                            else if (item.Part != null)
+                            {
+                                <span>Part: <strong>@item.Part.Name</strong> (@item.Price:C)</span>
+                            }
+                            <span> x @item.Quantity</span>
+                        </li>
+                    }
+                </ul>
+                <p class="fw-bold mt-2">Total: @order.TotalAmount.ToString("C")</p>
+            </div>
+        </div>
+    }
+
+@foreach (var order in Model)
+{
+<div class="order-summary">
+    <p><strong>Order #@order.Id</strong> - @order.OrderDate.ToShortDateString() - Total: $@order.TotalAmount</p>
+    <a class="btn btn-sm btn-primary" href="@Url.Action("Pdf", "Invoice", new { id = order.Id })" target="_blank">
+        Download Invoice
+    </a>
+</div>
+}
+}

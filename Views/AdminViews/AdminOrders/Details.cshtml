@@ -1,0 +1,27 @@
+@model MotiZone.Models.ViewModels.OrderViewModel
+@{
+    ViewData["Title"] = $"Order #{Model.Id}";
+}
+
+<h2>Order Details - #@Model.Id</h2>
+
+<p><strong>Date:</strong> @Model.OrderDate.ToLocalTime().ToString("f")</p>
+<p><strong>Total:</strong> @Model.TotalAmount.ToString("C")</p>
+
+<ul>
+    @foreach (var item in Model.Items)
+    {
+        <li>
+            @if (item.Vehicle != null)
+            {
+                @:Vehicle: @item.Vehicle.Make @item.Vehicle.Model
+            }
+            else if (item.Part != null)
+            {
+                @:Part: @item.Part.Name
+            }
+            × @item.Quantity (@item.Price:C)
+
+        </li>
+    }
+</ul>

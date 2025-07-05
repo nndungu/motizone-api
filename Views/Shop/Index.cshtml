@@ -1,0 +1,84 @@
+@model MotiZone.Models.ViewModels.ShopViewModel
+@{
+    ViewData["Title"] = "Shop Vehicles";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section class="py-5 bg-light">
+    <div class="container">
+        <h2 class="mb-4 text-primary fw-bold text-center">Shop Vehicles</h2>
+
+        <form method="get" class="mb-5">
+            <div class="row g-3 justify-content-center">
+                <div class="col-md-3">
+                    <input type="text" name="Make" class="form-control rounded-pill" placeholder="Make" value="@Model.Make" />
+                </div>
+                <div class="col-md-3">
+                    <input type="text" name="Model" class="form-control rounded-pill" placeholder="Model" value="@Model.Model" />
+                </div>
+                <div class="col-md-2">
+                    <input type="number" name="Year" class="form-control rounded-pill" placeholder="Year" value="@Model.Year" />
+                </div>
+                <div class="col-md-2">
+                    <button type="submit" class="btn btn-primary w-100 rounded-pill">Filter</button>
+                </div>
+            </div>
+        </form>
+
+        @if (Model.Vehicles?.Any() ?? false)
+        {
+            <div class="row">
+                @foreach (var vehicle in Model.Vehicles)
+                {
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 border-0 shadow-sm rounded-4">
+                            <img src="~/images/vehicles/logo.jpg" class="card-img-top rounded-top-4" alt="@vehicle.Model" />
+                            <div class="card-body">
+                                <h5 class="card-title">@($"{vehicle.Make} {vehicle.Model}")</h5>
+                                <p class="card-text mb-1">Year: <strong>@vehicle.Year</strong></p>
+                                <p class="text-success fw-semibold fs-5">@vehicle.Price.ToString("C")</p>
+                                <a class="btn btn-outline-primary rounded-pill"
+                                   asp-controller="Cart"
+                                   asp-route-id="@vehicle.Id">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        }
+        else
+        {
+            <div class="text-center text-muted my-5">No vehicles found with the selected filters.</div>
+        }
+
+        <hr class="my-5" />
+
+        <h2 class="mb-4 text-primary fw-bold text-center">Parts</h2>
+
+        @if (Model.Parts?.Any() ?? false)
+        {
+            <div class="row">
+                @foreach (var part in Model.Parts)
+                {
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 border-0 shadow-sm rounded-4">
+                            <img src="~/images/vehicles/car-placeholder.jpg" class="card-img-top rounded-top-4" alt="@part.Name" />
+                            <div class="card-body">
+                                <h5 class="card-title">@part.Name</h5>
+                                <p class="card-text">@part.Description</p>
+                                <p class="text-primary fw-semibold fs-5">@part.Price.ToString("C")</p>
+                                <a class="btn btn-outline-primary rounded-pill"
+                                   asp-controller="Cart"
+                                   asp-route-id="@part.Id">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        }
+        else
+        {
+            <div class="text-center text-muted my-5">No vehicle parts available.</div>
+        }
+    </div>
+</section>

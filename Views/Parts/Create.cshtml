@@ -1,0 +1,36 @@
+@model MotiZone.Models.Part
+@{
+    ViewData["Title"] = ViewContext.RouteData.Values["action"]!.ToString() == "Edit" ? "Edit Part" : "Add New Part";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section class="py-5">
+    <div class="container">
+        <h2 class="text-primary mb-4">@ViewData["Title"]</h2>
+
+        <form asp-action="@ViewContext.RouteData.Values["action"]" method="post" class="row g-3">
+            <div class="col-md-6">
+                <label asp-for="Name" class="form-label">Name</label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+
+            <div class="col-md-6">
+                <label asp-for="Price" class="form-label">Price</label>
+                <input asp-for="Price" class="form-control" />
+                <span asp-validation-for="Price" class="text-danger"></span>
+            </div>
+
+            <div class="col-12">
+                <label asp-for="Description" class="form-label">Description</label>
+                <textarea asp-for="Description" class="form-control" rows="3"></textarea>
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary">@ViewData["Title"]</button>
+                <a asp-action="Index" class="btn btn-outline-secondary ms-2">Cancel</a>
+            </div>
+        </form>
+    </div>
+</section>

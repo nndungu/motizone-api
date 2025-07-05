@@ -1,0 +1,50 @@
+@model List<MotiZone.Models.ViewModels.CartViewModel>
+@{
+    ViewData["Title"] = "Your Cart";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-primary fw-bold text-center mb-4">Your Shopping Cart</h2>
+
+        @if (!Model.Any())
+        {
+            <div class="alert alert-info text-center">
+                Your cart is currently empty.
+            </div>
+        }
+        else
+        {
+            <div class="table-responsive">
+                <table class="table table-hover shadow-sm bg-white rounded-3">
+                    <thead class="table-primary">
+                    <tr>
+                        <th class="text-start">Item</th>
+                        <th class="text-start">Type</th>
+                        <th class="text-end">Price</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td class="align-middle">@item.Name</td>
+                            <td class="align-middle">@item.Type</td>
+                            <td class="align-middle text-end text-success fw-semibold">
+                                @item.Price.ToString("C")
+                            </td>
+                        </tr>
+                    }
+                    </tbody>
+                </table>
+                <div class="d-flex justify-content-end mt-4">
+                    <a asp-controller="Cart" asp-action="Index"
+                       class="btn btn-success btn-lg rounded-pill">
+                            Proceed to Checkout
+                        </a>
+                </div>
+            </div>
+        }
+    </div>
+</section>
