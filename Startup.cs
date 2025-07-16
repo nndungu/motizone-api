@@ -76,7 +76,7 @@ public class Startup
         });
 
         // Email (example with SMTP)
-        services.AddTransient<IEmailSender, SmtpEmailSender>();
+        services.AddTransient<SmtpEmailSender>();
 
         // App Services
         services.AddScoped<VehicleService>();
@@ -84,12 +84,16 @@ public class Startup
         services.AddScoped<UserService>();
         services.AddScoped<CartService>();
         services.AddScoped<OrderService>();
+        services.AddScoped<PdfInvoiceService>();
         services.AddScoped<PaymentService>();
         services.AddScoped<RentalService>();
         services.AddScoped<ImageService>();
         services.AddScoped<FinancingService>();
         services.AddScoped<CustomizationService>();
         services.AddScoped<JwtHelper>();
+        /*services.AddHttpClient<DarajaGateway>();
+        services.Configure<StripeSettings>(builder.Configuration.GetSection("Stripe"));
+        StripeConfiguration.ApiKey = builder.Configuration["Stripe:SecretKey"];*/
     }
 
     public void Configure(IApplicationBuilder app, IWebHostEnvironment env)

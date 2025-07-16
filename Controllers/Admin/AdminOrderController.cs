@@ -1,6 +1,9 @@
 // Controllers/AdminOrdersController.cs
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using MotiZone.Data;
+using MotiZone.Models;
 using MotiZone.Models.ViewModels;
 using MotiZone.Services;
 
@@ -9,50 +12,48 @@ namespace MotiZone.Controllers.Admin;
 [Authorize(Roles = "Admin")]
 public class AdminOrdersController : Controller
 {
-    private readonly OrderService _orderService;
-
-    public AdminOrdersController(OrderService orderService)
+    private readonly ApplicationDbContext _context;
+    public AdminOrdersController(ApplicationDbContext context)
     {
-        _orderService = orderService;
+        _context = context;
     }
 
     public async Task<IActionResult> Index()
     {
-        var orders = await _orderService.GetAllOrdersAsync();
-
-        var viewModels = orders.Select(o => new OrderViewModel
-        {
-            Id = o.Id,
-            OrderDate = o.OrderDate,
-            TotalAmount = o.TotalAmount,
-            Items = o.Items
-        }).ToList();
-
-        return View(viewModels);
+        var orders = await _context.Orders
+            .Include(o => o.User)
+            .Include(o => o.Items)
+            .ToListAsync();
+        return View(orders);
     }
 
     public async Task<IActionResult> Details(int id)
     {
-        var order = await _orderService.GetOrderByIdAsync(id);
-        if (order == null) return NotFound();
+        var order = await _context.Orders 
+            .Include(o => o.User)
+            .Include(o => o.Items)
+            .ThenInclude(i => i.Vehicle)
+            .Include(o => o.Items)
+            .ThenInclude(i => i.Part)
+            .Include(o => o.Items)
+            .ThenInclude(i => i.Customization)
+            .FirstOrDefaultAsync(o => o.Id == id);
+        
+        if (order == null)
+            return NotFound();
 
-        var viewModel = new OrderViewModel
-        {
-            Id = order.Id,
-            OrderDate = order.OrderDate,
-            TotalAmount = order.TotalAmount,
-            Items = order.Items
-        };
-
-        return View(viewModel);
+        return View(order);
     }
 
     [HttpPost]
-    public async Task<IActionResult> UpdateStatus(int id, string status)
+    public async Task<IActionResult> UpdateStatus(int id, OrderStatus status)
     {
-        var success = await _orderService.UpdateOrderStatusAsync(id, status);
-        if (!success) return NotFound();
+        var order = await _context.Orders.FindAsync(id);
+        if (order == null ) return NotFound();
+        
+        order.Status = status;
+        await _context.SaveChangesAsync();
 
-        return RedirectToAction("Index");
+        return RedirectToAction("Details", new { id = id });
     }
 }

@@ -11,6 +11,17 @@ namespace MotiZone.Data
             using var context = new ApplicationDbContext(
                 serviceProvider.GetRequiredService<DbContextOptions<ApplicationDbContext>>());
 
+            context.Users.RemoveRange(context.Users);
+            context.CartItems.RemoveRange(context.CartItems);
+            context.Rentals.RemoveRange(context.Rentals);
+            context.Parts.RemoveRange(context.Parts);
+            context.Customizations.RemoveRange(context.Customizations);
+            context.Orders.RemoveRange(context.Orders);
+            context.OrderItems.RemoveRange(context.OrderItems);
+            await context.SaveChangesAsync();
+
+            Console.WriteLine("🧹 Cleared existing cart items, rentals, customizations, parts, and vehicles.");
+
             var userManager = serviceProvider.GetRequiredService<UserManager<User>>();
             var roleManager = serviceProvider.GetRequiredService<RoleManager<IdentityRole<int>>>();
 
@@ -131,9 +142,19 @@ namespace MotiZone.Data
             if (!context.Parts.Any())
             {
                 context.Parts.AddRange(
-                    new Part { Name = "Air Filter", Description = "Universal air filter", Category = "Engine", Price = 2500 },
-                    new Part { Name = "Brake Pads", Description = "Front brake pads", Category = "Brakes", Price = 4200 },
-                    new Part { Name = "Oil Filter", Description = "Oil filter for Japanese vehicles", Category = "Engine", Price = 1800 }
+                    new Part
+                    {
+                        Name = "Air Filter", Description = "Universal air filter", Category = "Engine", Price = 2500
+                    },
+                    new Part
+                    {
+                        Name = "Brake Pads", Description = "Front brake pads", Category = "Brakes", Price = 4200
+                    },
+                    new Part
+                    {
+                        Name = "Oil Filter", Description = "Oil filter for Japanese vehicles", Category = "Engine",
+                        Price = 1800
+                    }
                 );
                 Console.WriteLine("✔ Seeded parts.");
             }
@@ -146,9 +167,14 @@ namespace MotiZone.Data
             if (!context.Customizations.Any())
             {
                 context.Customizations.AddRange(
-                    new Customization { Name = "Bull Bar", Type = "Body", Description = "Heavy-duty bull bar for safaris", Price = 15000 },
-                    new Customization { Name = "Roof Rack", Type = "Body", Description = "Durable rack for luggage", Price = 10000 },
-                    new Customization { Name = "LED Light Bar", Type = "Body", Description = "Bright off-road light", Price = 8500 }
+                    new Customization
+                    {
+                        Name = "Bull Bar", Type = "Body", Description = "Heavy-duty bull bar for safaris", Price = 15000
+                    },
+                    new Customization
+                        { Name = "Roof Rack", Type = "Body", Description = "Durable rack for luggage", Price = 10000 },
+                    new Customization
+                        { Name = "LED Light Bar", Type = "Body", Description = "Bright off-road light", Price = 8500 }
                 );
                 Console.WriteLine("✔ Seeded customizations.");
             }
@@ -186,9 +212,130 @@ namespace MotiZone.Data
                 Console.WriteLine("ℹ Rentals already seeded.");
             }
 
-            // === 8. Save Changes ===
-            await context.SaveChangesAsync();
-            Console.WriteLine("✅ Seeding complete.");
+            // === 8. Seed Cart Items ===
+            if (!context.CartItems.Any())
+            {
+                var customer = await userManager.FindByEmailAsync("john.kamau@kenya.co.ke");
+                var vehicle = await context.Vehicles.FirstOrDefaultAsync(v => v.Make == "Toyota");
+                var part = await context.Parts.FirstOrDefaultAsync(p => p.Name == "Air Filter");
+                var customization = await context.Customizations.FirstOrDefaultAsync(c => c.Name == "Bull Bar");
+
+                if (customer != null)
+                {
+                    var cartItems = new List<CartItem>();
+
+                    if (vehicle != null)
+                    {
+                        cartItems.Add(new CartItem
+                        {
+                            UserId = customer.Id,
+                            VehicleId = vehicle.Id,
+                            Quantity = 1,
+                            DateAdded = DateTime.UtcNow
+                        });
+                    }
+
+                    if (part != null)
+                    {
+                        cartItems.Add(new CartItem
+                        {
+                            UserId = customer.Id,
+                            PartId = part.Id,
+                            Quantity = 1,
+                            DateAdded = DateTime.UtcNow
+                        });
+                    }
+
+                    if (customization != null)
+                    {
+                        cartItems.Add(new CartItem
+                        {
+                            UserId = customer.Id,
+                            CustomizationId = customization.Id,
+                            Quantity = 1,
+                            DateAdded = DateTime.UtcNow
+                        });
+                    }
+
+                    context.CartItems.AddRange(cartItems);
+                    Console.WriteLine($"✔ Seeded {cartItems.Count} cart items for {customer.Email}");
+                }
+                else
+                {
+                    Console.WriteLine("⚠ Could not seed cart items – customer user missing.");
+                }
+            }
+            else
+            {
+                Console.WriteLine("ℹ Cart items already seeded.");
+            }
+
+            // === 9. Seed orders
+            if (!context.OrderItems.Any())
+            {
+                var orders = await context.Orders.Include(o => o.User).ToListAsync();
+                var part = await context.Parts.FirstOrDefaultAsync(p => p.Name == "Air Filter");
+                var vehicle = await context.Vehicles.FirstOrDefaultAsync(v => v.Make == "Toyota");
+
+                foreach (var order in orders)
+                {
+                    context.OrderItems.Add(new OrderItem
+                    {
+                        OrderId = order.Id,
+                        PartId = part?.Id,
+                        Quantity = 1,
+                        Price = part?.Price ?? 0,
+                    });
+                    context.OrderItems.Add(new OrderItem
+                    {
+                        OrderId = order.Id,
+                        VehicleId = vehicle?.Id,
+                        Quantity = 1,
+                        Price = part?.Price ?? 0,
+                    });
+                }
+
+                Console.WriteLine("✔ Seeded order items.");
+            }
+
+            // === 10. Seed Admin Orders ===
+            if (!context.Orders.Any())
+            {
+                var admin = await userManager.FindByEmailAsync("admin@motizone.com");
+                var vehicle = await context.Vehicles.FirstOrDefaultAsync();
+
+                if (admin != null && vehicle != null)
+                {
+                    var order = new Order
+                    {
+                        UserId = admin.Id,
+                        OrderDate = DateTime.UtcNow,
+                        TotalAmount = vehicle.Price,
+                        //Status = " ",
+                        Items = new List<OrderItem>
+                        {
+                            new OrderItem
+                            {
+                                VehicleId = vehicle.Id,
+                                Quantity = 1,
+                                Price = vehicle.Price,
+                            }
+                        }
+
+                    };
+                    context.Orders.Add(order);
+                    Console.WriteLine("✔ Seeded admin order.");
+                }
+                else
+                {
+                    Console.WriteLine("ℹ Orders already seeded.");
+                }
+
+                // === 11. Save Changes ===
+                await context.SaveChangesAsync();
+                Console.WriteLine("✅ Seeding complete.");
+            }
         }
     }
 }
+    

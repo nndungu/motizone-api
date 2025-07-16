@@ -19,6 +19,8 @@ else
             <div class="card-header">
                 <strong>Order ID:</strong> @order.Id |
                 <strong>Date:</strong> @order.OrderDate.ToLocalTime().ToString("g")
+                <p>Total: KES @order.TotalAmount</p>
+                <a asp-action="Details" asp-route-id="@order.Id" class="btn btn-sm btn-outline-primary">View Details</a>
             </div>
             <div class="card-body">
                 <ul>

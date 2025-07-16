@@ -1,0 +1,9 @@
+@model MotiZone.Models.CartItem
+@{
+    ViewData["Title"] = "Payment Cancelled";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="container py-5 text-center">
+    <h2 class="text-danger fw-bold">@ViewBag.Message</h2>
+    <a href="/Cart" class="btn btn-warning mt-4">Back to Cart</a>
+</div>

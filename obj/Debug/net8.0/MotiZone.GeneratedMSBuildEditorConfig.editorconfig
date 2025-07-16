@@ -70,6 +70,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5WaWV3cy9BZG1pbk9yZGVycy9FZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[/home/ecorp/Workspace/MotiZone/MotiZone/Views/AdminViews/AdminPayments/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5WaWV3cy9BZG1pblBheW1lbnRzL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/ecorp/Workspace/MotiZone/MotiZone/Views/AdminViews/AdminPayments/Payments.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5WaWV3cy9BZG1pblBheW1lbnRzL1BheW1lbnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/ecorp/Workspace/MotiZone/MotiZone/Views/AdminViews/AdminRentals/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5WaWV3cy9BZG1pblJlbnRhbHMvQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -138,8 +146,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5WaWV3cy9BZG1pblZlaGljbGVzL0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/ecorp/Workspace/MotiZone/MotiZone/Views/Cart/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2FydC9JbmRleC5jc2h0bWw=
+[/home/ecorp/Workspace/MotiZone/MotiZone/Views/Cart/Cart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2FydC9DYXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/ecorp/Workspace/MotiZone/MotiZone/Views/Cart/Checkout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2FydC9DaGVja291dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/home/ecorp/Workspace/MotiZone/MotiZone/Views/Checkout/Checkout.cshtml]
@@ -170,12 +182,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[/home/ecorp/Workspace/MotiZone/MotiZone/Views/Orders/AllOrders.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvT3JkZXJzL0FsbE9yZGVycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/ecorp/Workspace/MotiZone/MotiZone/Views/Orders/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvT3JkZXJzL0RldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/home/ecorp/Workspace/MotiZone/MotiZone/Views/Orders/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvT3JkZXJzL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/ecorp/Workspace/MotiZone/MotiZone/Views/Orders/Invoice.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvT3JkZXJzL0ludm9pY2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/home/ecorp/Workspace/MotiZone/MotiZone/Views/Parts/Create.cshtml]
@@ -192,6 +212,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/home/ecorp/Workspace/MotiZone/MotiZone/Views/Parts/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGFydHMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/ecorp/Workspace/MotiZone/MotiZone/Views/Payment/Cancel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGF5bWVudC9DYW5jZWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/ecorp/Workspace/MotiZone/MotiZone/Views/Payment/Success.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGF5bWVudC9TdWNjZXNzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/home/ecorp/Workspace/MotiZone/MotiZone/Views/Pdf/Invoice.cshtml]

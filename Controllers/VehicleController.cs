@@ -1,4 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
+using MotiZone.Data;
+using MotiZone.Models;
 using MotiZone.Models.ViewModels;
 using MotiZone.Services;
 
@@ -8,11 +10,13 @@ public class VehiclesController : Controller
 {
     private readonly VehicleService _vehicleService;
     private readonly ImageService _imageService;
+    private readonly ApplicationDbContext _context;
 
-    public VehiclesController(VehicleService vehicleService, ImageService imageService)
+    public VehiclesController(ApplicationDbContext context,VehicleService vehicleService, ImageService imageService)
     {
         _vehicleService = vehicleService;
         _imageService = imageService;
+        _context = context;
     }
 
     public async Task<IActionResult> Index(string? make, string? model, int? year)
@@ -29,6 +33,18 @@ public class VehiclesController : Controller
         };
 
         return View(viewModel);
+    }
+    [HttpPost]
+    public async Task<IActionResult> Create(Vehicle vehicle, IFormFile imageFile)
+    {
+        if (!ModelState.IsValid) return View(vehicle);
+
+        vehicle.ImageUrl = await _imageService.SaveImageAsync(imageFile, "vehicles");
+
+        _context.Vehicles.Add(vehicle);
+        await _context.SaveChangesAsync();
+
+        return RedirectToAction("Index");
     }
     public async Task<IActionResult> Details(int id)
     {

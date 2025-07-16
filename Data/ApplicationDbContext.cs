@@ -16,7 +16,7 @@ namespace MotiZone.Data
         public DbSet<OrderItem> OrderItems { get; set; }
         public DbSet<CartItem> CartItems { get; set; }
         public DbSet<Payment> Payments { get; set; }
-
+        public DbSet<MpesaTransaction> MpesaTransactions { get; set; }
         public DbSet<Rental> Rentals { get; set; }
         public DbSet<Service> Services { get; set; }
         public DbSet<ServiceBooking> ServiceBookings { get; set; }
@@ -50,7 +50,7 @@ namespace MotiZone.Data
 
             modelBuilder.Entity<CartItem>()
                 .HasOne(c => c.Order)
-                .WithMany(o => o.Items)
+                .WithMany()
                 .HasForeignKey(c => c.OrderId)
                 .OnDelete(DeleteBehavior.Cascade);
 

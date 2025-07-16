@@ -18,6 +18,9 @@ public class CartService
     {
         return await _context.CartItems
             .Where(ci => ci.UserId == userId)
+            .Include(ci => ci.Vehicle)
+            .Include(ci => ci.Part)
+            .Include(ci => ci.Customization)
             .Select(ci => new CartViewModel
             {
                 Id = ci.Id,
@@ -25,6 +28,8 @@ public class CartService
                     ? ci.Part.Name
                     : ci.Vehicle != null
                         ? $"{ci.Vehicle.Make} {ci.Vehicle.Model} ({ci.Vehicle.Year})"
+                        : ci.Customization != null
+                        ? ci.Customization.Name 
                         : "Unknown Item", 
                 Type = ci.Part != null
                     ? "Part"
@@ -38,6 +43,8 @@ public class CartService
                     ? ci.Part.Price
                     : ci.Vehicle != null
                         ? ci.Vehicle.Price
+                        : ci.Customization != null
+                        ? ci.Customization.Price
                         : 0
             })
             .OrderBy(ci => ci.Id)
@@ -103,5 +110,48 @@ public class CartService
 
         _context.CartItems.RemoveRange(items);
         await _context.SaveChangesAsync();
+    }
+
+    public async Task<int?> CheckoutAsync(int userId)
+    {
+        var cartItems = await _context.CartItems
+            .Where(ci => ci.UserId == userId)
+            .Include(ci => ci.Part)
+            .Include(ci => ci.Customization)
+            .Include(ci => ci.Vehicle)
+            .ToListAsync();
+            
+            if(!cartItems.Any())
+                return null;
+
+            var order = new Order
+            {
+                UserId = userId,
+                OrderDate = DateTime.Now,
+                TotalAmount = cartItems.Sum(ci =>
+                    ci.Part?.Price ?? ci.Vehicle?.Price ?? ci.Customization?.Price ?? 0)
+            };
+            
+            _context.Orders.Add(order);
+            await _context.SaveChangesAsync();
+
+            foreach (var cartItem in cartItems)
+            {
+                var orderItem = new OrderItem
+                {
+                    OrderId = order.Id,
+                    VehicleId = cartItem.VehicleId,
+                    PartId = cartItem.PartId,
+                    CustomizationId = cartItem.CustomizationId,
+                    Quantity = cartItem.Quantity,
+                    Price = cartItem.Part?.Price ?? cartItem.Vehicle?.Price ?? cartItem.Customization?.Price ?? 0
+                };
+                _context.OrderItems.Add(orderItem);
+            }
+            
+            _context.CartItems.RemoveRange(cartItems);
+            await _context.SaveChangesAsync();
+            
+            return order.Id;
     }
 }

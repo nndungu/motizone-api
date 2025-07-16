@@ -7,7 +7,6 @@
 
 <p><strong>Date:</strong> @Model.OrderDate.ToLocalTime().ToString("f")</p>
 <p><strong>Total:</strong> @Model.TotalAmount.ToString("C")</p>
-
 <ul>
     @foreach (var item in Model.Items)
     {
@@ -23,5 +22,16 @@
             × @item.Quantity (@item.Price:C)
 
         </li>
+        <form method="post" asp-action="UpdateStatus" asp-route-id="@Model.Id">
+            <select name="status" class="form-control">
+                @foreach (OrderStatus s in Enum.GetValues(typeof(OrderStatus)))
+                {
+                   // <option value="@s" @(s == Model.Status ? "selected" : "")>@s</option>
+                }
+            </select>
+            <button class="btn btn-primary">Update Status</button>
+        </form>
     }
 </ul>
+
+

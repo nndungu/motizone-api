@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "zX9Nl67L8pPNgkQnogTZhPrYtIwzwMZn0YTUPbcUhn8=",
+  "Hash": "YrkqltKSXj6NeijzMpqgaXvyGGRBZfHndiVfOXwSGfc=",
   "Source": "MotiZone",
   "BasePath": "_content/MotiZone",
   "Mode": "Default",
@@ -17,10 +17,10 @@
   ],
   "Assets": [
     {
-      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/css/site.css",
+      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/css/site.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/",
+      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -35,13 +35,13 @@
       "Integrity": "j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/css/site.css"
+      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/css/site.css"
     },
     {
-      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/favicon.ico",
+      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/favicon.ico",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/",
+      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -56,13 +56,13 @@
       "Integrity": "qU+KhVPK6oQw3UyjzAHU4xjRmCj3TLZUU/+39dni9E0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/favicon.ico"
+      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/favicon.ico"
     },
     {
-      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/js/site.js",
+      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/js/site.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/",
+      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -77,13 +77,13 @@
       "Integrity": "hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/js/site.js"
+      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/js/site.js"
     },
     {
-      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/",
+      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -98,13 +98,13 @@
       "Integrity": "Yy5/hBqRmmU2MJ1TKwP2aXoTO6+OjzrLmJIsC2Wy4H8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.css"
+      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.css"
     },
     {
-      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/",
+      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -119,13 +119,13 @@
       "Integrity": "xAT+n25FE5hvOjj2fG4YdOwr1bl4IlAJBNg6PbhLT2E=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.css.map"
     },
     {
-      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/",
+      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -140,13 +140,13 @@
       "Integrity": "5nDHMGiyfZHl3UXePuhLDQR9ncPfBR1HJeZLXyJNV24=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.min.css"
     },
     {
-      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/",
+      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -161,13 +161,13 @@
       "Integrity": "kgL+xwVmM8IOs15lnoHt9daR2LRMiBG/cYgUPcKQOY4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/",
+      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -182,13 +182,13 @@
       "Integrity": "CZxoF8zjaLlyVkcvVCDlc8CeQR1w1RMrvgYx30cs8kM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/",
+      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -203,13 +203,13 @@
       "Integrity": "/siQUA8yX830j+cL4amKHY3yBtn3n8z3Eg+VZ15f90k=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/",
+      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -224,13 +224,13 @@
       "Integrity": "vMxTcvkC4Ly7LiAT3G8yEy9EpTr7Fge4SczWp07/p3k=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/",
+      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -245,13 +245,13 @@
       "Integrity": "7GdOlw7U/wgyaeUtFmxPz5/MphdvVSPtVOOlTn9c33Q=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/",
+      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -266,13 +266,13 @@
       "Integrity": "lo9YI82OF03vojdu+XOR3+DRrLIpMhpzZNmHbM5CDMA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.css"
+      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.css"
     },
     {
-      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/",
+      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -287,13 +287,13 @@
       "Integrity": "RXJ/QZiBfHXoPtXR2EgC+bFo2pe3GtbZO722RtiLGzQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
     },
     {
-      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/",
+      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -308,13 +308,13 @@
       "Integrity": "l8vt5oozv958eMd9TFsPAWgl9JJK9YKfbVSs8mchQ84=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
     },
     {
-      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/",
+      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -329,13 +329,13 @@
       "Integrity": "0eqVT62kqRLJh9oTqLeIH4UnQskqVjib8hl2fXxl4lg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/",
+      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -350,13 +350,13 @@
       "Integrity": "V8psnHoJS/MPlCXWwc/J3tGtp9c3gGFRmqsIQgpn+Gg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/",
+      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -371,13 +371,13 @@
       "Integrity": "OoQVwh7Arp7bVoK2ZiTx2S//KrnPrSPzPZ93CqCMhe8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/",
+      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -392,13 +392,13 @@
       "Integrity": "/8jh8hcEMFKyS6goWqnNu7t3EzZPCGdQZgO6sCkI8tI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/",
+      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -413,13 +413,13 @@
       "Integrity": "910zw+rMdcg0Ls48ATp65vEn8rd5HvPxOKm2x3/CBII=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/",
+      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -434,13 +434,13 @@
       "Integrity": "2BubgNUPlQSF/0wLFcRXQ/Yjzk9vsUbDAeK2QM+h+yo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.css"
+      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.css"
     },
     {
-      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/",
+      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -455,13 +455,13 @@
       "Integrity": "Nfjrc4Ur9Fv2oBEswQWIyBnNDP99q+LhL+z9553O0cY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
     },
     {
-      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/",
+      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -476,13 +476,13 @@
       "Integrity": "KyE9xbKO9CuYx0HXpIKgsWIvXkAfITtiQ172j26wmRs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
     },
     {
-      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/",
+      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -497,13 +497,13 @@
       "Integrity": "rHDmip4JZzuaGOcSQ1QSQrIbG0Eb3Zja9whqSF1zYIU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/",
+      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -518,13 +518,13 @@
       "Integrity": "H6wkBbSwjua2veJoThJo4uy161jp+DOiZTloUlcZ6qQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/",
+      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -539,13 +539,13 @@
       "Integrity": "p0BVq5Ve/dohBIdfbrZsoQNu02JSsKh1g0wbyiQiUaU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/",
+      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -560,13 +560,13 @@
       "Integrity": "GAUum6FjwQ8HrXGaoFRnHTqQQLpljXGavT7mBX8E9qU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/",
+      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -581,13 +581,13 @@
       "Integrity": "o8XK32mcY/FfcOQ1D2HJvVuZ0YTXSURZDLXCK0fnQeA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.css",
+      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/",
+      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -602,13 +602,13 @@
       "Integrity": "GKEF18s44B5e0MolXAkpkqLiEbOVlKf6VyYr/G/E6pw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.css"
+      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.css"
     },
     {
-      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.css.map",
+      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/",
+      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -623,13 +623,13 @@
       "Integrity": "KzNVR3p7UZGba94dnCtlc6jXjK5urSPiZ/eNnKTmDkw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.css.map"
+      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.css.map"
     },
     {
-      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.min.css",
+      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/",
+      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -644,13 +644,13 @@
       "Integrity": "PI8n5gCcz9cQqQXm3PEtDuPG8qx9oFsFctPg0S5zb8g=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.min.css"
+      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.min.css"
     },
     {
-      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/",
+      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -665,13 +665,13 @@
       "Integrity": "8SM4U2NQpCLGTQLW5D/x3qSTwxVq2CP+GXYc3V1WwFs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.min.css.map"
+      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.min.css.map"
     },
     {
-      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.rtl.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/",
+      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -686,13 +686,13 @@
       "Integrity": "j5E4XIj1p1kNnDi0x1teX9RXoh1/FNlPvCML9YmRh2Q=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.rtl.css"
+      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.rtl.css"
     },
     {
-      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/",
+      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -707,13 +707,13 @@
       "Integrity": "3bYWUiiVYMZfv2wq5JnXIsHlQKgSKs/VcRivgjgZ1ho=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
     },
     {
-      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/",
+      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -728,13 +728,13 @@
       "Integrity": "h5lE7Nm8SkeIpBHHYxN99spP3VuGFKl5NZgsocil7zk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
     },
     {
-      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/",
+      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -749,13 +749,13 @@
       "Integrity": "rTzXlnepcb/vgFAiB+U7ODQAfOlJLfM3gY6IU7eIANk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.bundle.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/",
+      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -770,13 +770,13 @@
       "Integrity": "mkoRoV24jV+rCPWcHDR5awPx8VuzzJKN0ibhxZ9/WaM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.bundle.js"
+      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.bundle.js"
     },
     {
-      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/",
+      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -791,13 +791,13 @@
       "Integrity": "Wq4aWW1rQdJ+6oAgy1JQc9IBjHL9T3MKfXTBNqOv02c=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
     },
     {
-      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/",
+      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -812,13 +812,13 @@
       "Integrity": "CDOy6cOibCWEdsRiZuaHf8dSGGJRYuBGC+mjoJimHGw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
     },
     {
-      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/",
+      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -833,13 +833,13 @@
       "Integrity": "Xj4HYxZBQ7qqHKBwa2EAugRS+RHWzpcTtI49vgezUSU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.esm.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/",
+      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -854,13 +854,13 @@
       "Integrity": "exiXZNJDwucXfuje3CbXPbuS6+Ery3z9sP+pgmvh8nA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.esm.js"
+      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.esm.js"
     },
     {
-      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/",
+      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -875,13 +875,13 @@
       "Integrity": "EPRLgpqWkahLxEn6CUjdM76RIYIw1xdHwTbeHssuj/4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.esm.js.map"
     },
     {
-      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/",
+      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -896,13 +896,13 @@
       "Integrity": "QZdFT1ZNdly4rmgUBtXmXFS9BU1FTa+sPe6h794sFRQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.esm.min.js"
     },
     {
-      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/",
+      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -917,13 +917,13 @@
       "Integrity": "Tsbv8z6VlNgVET8xvz/yLo/v5iJHTAj2J4hkhjP1rHM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.js",
+      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/",
+      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -938,13 +938,13 @@
       "Integrity": "+UW802wgVfnjaSbdwyHLlU7AVplb0WToOlvN1CnzIac=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.js"
+      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.js"
     },
     {
-      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.js.map",
+      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.js.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/",
+      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -959,13 +959,13 @@
       "Integrity": "9Wr7Hxe8gCJDoIHh5xP29ldXvC3kN2GkifQj9c8vYx4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.js.map"
+      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.js.map"
     },
     {
-      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.min.js",
+      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/",
+      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -980,13 +980,13 @@
       "Integrity": "3gQJhtmj7YnV1fmtbVcnAV6eI4ws0Tr48bVZCThtCGQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.min.js"
+      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.min.js"
     },
     {
-      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.min.js.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/",
+      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1001,13 +1001,13 @@
       "Integrity": "ZI01e/ns473GKvACG4McggJdxvFfFIw4xspwQiG8Ye4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.min.js.map"
+      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.min.js.map"
     },
     {
-      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/LICENSE",
+      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/LICENSE",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/",
+      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1022,13 +1022,13 @@
       "Integrity": "ZH6pA6BSx6fuHZvdaKph1DwUJ+VSYilIiEQu8ilnvqk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/LICENSE"
+      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/LICENSE"
     },
     {
-      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.js",
+      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/",
+      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1043,13 +1043,13 @@
       "Integrity": "wJQaJ0XynBE2fq6CexXXhxKu7fstVmQc7V2MHNTo+WQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.js"
+      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js",
+      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/",
+      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1064,13 +1064,13 @@
       "Integrity": "YJa7W8EiQdQpkk93iGEjjnLSUWRpRJbSfzfURh1kxz4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js"
+      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/jquery-validation-unobtrusive/LICENSE.txt",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/",
+      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -1085,13 +1085,13 @@
       "Integrity": "16aFlqtpsG9RyieKZUUUjkJpqTgcJtWXwT312I4Iz1s=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/jquery-validation-unobtrusive/LICENSE.txt"
+      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/jquery-validation-unobtrusive/LICENSE.txt"
     },
     {
-      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/jquery-validation/dist/additional-methods.js",
+      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/jquery-validation/dist/additional-methods.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/",
+      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1106,13 +1106,13 @@
       "Integrity": "XL6yOf4sfG2g15W8aB744T4ClbiDG4IMGl2mi0tbzu0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/jquery-validation/dist/additional-methods.js"
+      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/jquery-validation/dist/additional-methods.js"
     },
     {
-      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/jquery-validation/dist/additional-methods.min.js",
+      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/jquery-validation/dist/additional-methods.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/",
+      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1127,13 +1127,13 @@
       "Integrity": "jhvKRxZo6eW/PyCe+4rjBLzqesJlE8rnyQGEjk8l2k8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/jquery-validation/dist/additional-methods.min.js"
+      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/jquery-validation/dist/additional-methods.min.js"
     },
     {
-      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/jquery-validation/dist/jquery.validate.js",
+      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/jquery-validation/dist/jquery.validate.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/",
+      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1148,13 +1148,13 @@
       "Integrity": "kRL82372ur5YrVTjFWp9muao9yeU8AoLiJxSb5ekmHg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/jquery-validation/dist/jquery.validate.js"
+      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/jquery-validation/dist/jquery.validate.js"
     },
     {
-      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/jquery-validation/dist/jquery.validate.min.js",
+      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/jquery-validation/dist/jquery.validate.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/",
+      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1169,13 +1169,13 @@
       "Integrity": "umbTaFxP31Fv6O1itpLS/3+v5fOAWDLOUzlmvOGaKV4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/jquery-validation/dist/jquery.validate.min.js"
+      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/jquery-validation/dist/jquery.validate.min.js"
     },
     {
-      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/jquery-validation/LICENSE.md",
+      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/jquery-validation/LICENSE.md",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/",
+      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1190,13 +1190,13 @@
       "Integrity": "geHEkw/WGPdaHQMRq5HuNY9snliNzU/y2OW8ycnhGXw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/jquery-validation/LICENSE.md"
+      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/jquery-validation/LICENSE.md"
     },
     {
-      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/jquery/dist/jquery.js",
+      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/jquery/dist/jquery.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/",
+      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1211,13 +1211,13 @@
       "Integrity": "eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/jquery/dist/jquery.js"
+      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/jquery/dist/jquery.js"
     },
     {
-      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/jquery/dist/jquery.min.js",
+      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/jquery/dist/jquery.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/",
+      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1232,13 +1232,13 @@
       "Integrity": "/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/jquery/dist/jquery.min.js"
+      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/jquery/dist/jquery.min.js"
     },
     {
-      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/jquery/dist/jquery.min.map",
+      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/jquery/dist/jquery.min.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/",
+      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1253,13 +1253,13 @@
       "Integrity": "z3TVHGLSmRiZiRMOu0I7MEU1Mv3ImI2OK3GxuRZagLg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/jquery/dist/jquery.min.map"
+      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/jquery/dist/jquery.min.map"
     },
     {
-      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/jquery/dist/jquery.slim.js",
+      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/jquery/dist/jquery.slim.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/",
+      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery/dist/jquery.slim.js",
       "AssetKind": "All",
@@ -1274,13 +1274,13 @@
       "Integrity": "UgvvN8vBkgO0luPSUl2s8TIlOSYRoGFAX4jlCIm9Adc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/jquery/dist/jquery.slim.js"
+      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/jquery/dist/jquery.slim.js"
     },
     {
-      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/jquery/dist/jquery.slim.min.js",
+      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/jquery/dist/jquery.slim.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/",
+      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery/dist/jquery.slim.min.js",
       "AssetKind": "All",
@@ -1295,13 +1295,13 @@
       "Integrity": "kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/jquery/dist/jquery.slim.min.js"
+      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/jquery/dist/jquery.slim.min.js"
     },
     {
-      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/jquery/dist/jquery.slim.min.map",
+      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/jquery/dist/jquery.slim.min.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/",
+      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery/dist/jquery.slim.min.map",
       "AssetKind": "All",
@@ -1316,13 +1316,13 @@
       "Integrity": "9FYmcgtx8qZo1OPPiPt/BJ/sz0EI8SRNUYsFLZDEEt4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/jquery/dist/jquery.slim.min.map"
+      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/jquery/dist/jquery.slim.min.map"
     },
     {
-      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/jquery/LICENSE.txt",
+      "Identity": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/jquery/LICENSE.txt",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/",
+      "ContentRoot": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -1337,7 +1337,7 @@
       "Integrity": "hjIBkvmgxQXbNXK3B9YQ3t06RwLuQSQzC/dpvuB/lMk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/jquery/LICENSE.txt"
+      "OriginalItemSpec": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/jquery/LICENSE.txt"
     },
     {
       "Identity": "/home/ecorp/Workspace/MotiZone/MotiZone/obj/Debug/net8.0/scopedcss/bundle/MotiZone.styles.css",
@@ -2998,7 +2998,7 @@
     },
     {
       "Route": "Identity/css/site.css",
-      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/css/site.css",
+      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/css/site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3023,7 +3023,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 18:21:00 GMT"
+          "Value": "Sat, 17 May 2025 20:41:47 GMT"
         }
       ],
       "EndpointProperties": [
@@ -3035,7 +3035,7 @@
     },
     {
       "Route": "Identity/favicon.ico",
-      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/favicon.ico",
+      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3060,7 +3060,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 18:21:00 GMT"
+          "Value": "Sat, 17 May 2025 20:41:47 GMT"
         }
       ],
       "EndpointProperties": [
@@ -3072,7 +3072,7 @@
     },
     {
       "Route": "Identity/js/site.js",
-      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/js/site.js",
+      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/js/site.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3097,7 +3097,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 18:21:00 GMT"
+          "Value": "Sat, 17 May 2025 20:41:47 GMT"
         }
       ],
       "EndpointProperties": [
@@ -3109,7 +3109,7 @@
     },
     {
       "Route": "Identity/lib/bootstrap/dist/css/bootstrap-grid.css",
-      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3134,7 +3134,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 18:21:00 GMT"
+          "Value": "Sat, 17 May 2025 20:41:47 GMT"
         }
       ],
       "EndpointProperties": [
@@ -3146,7 +3146,7 @@
     },
     {
       "Route": "Identity/lib/bootstrap/dist/css/bootstrap-grid.css.map",
-      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3171,7 +3171,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 18:21:00 GMT"
+          "Value": "Sat, 17 May 2025 20:41:47 GMT"
         }
       ],
       "EndpointProperties": [
@@ -3183,7 +3183,7 @@
     },
     {
       "Route": "Identity/lib/bootstrap/dist/css/bootstrap-grid.min.css",
-      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3208,7 +3208,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 18:21:00 GMT"
+          "Value": "Sat, 17 May 2025 20:41:47 GMT"
         }
       ],
       "EndpointProperties": [
@@ -3220,7 +3220,7 @@
     },
     {
       "Route": "Identity/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
-      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3245,7 +3245,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 18:21:00 GMT"
+          "Value": "Sat, 17 May 2025 20:41:47 GMT"
         }
       ],
       "EndpointProperties": [
@@ -3257,7 +3257,7 @@
     },
     {
       "Route": "Identity/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
-      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3282,7 +3282,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 18:21:00 GMT"
+          "Value": "Sat, 17 May 2025 20:41:47 GMT"
         }
       ],
       "EndpointProperties": [
@@ -3294,7 +3294,7 @@
     },
     {
       "Route": "Identity/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
-      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3319,7 +3319,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 18:21:00 GMT"
+          "Value": "Sat, 17 May 2025 20:41:47 GMT"
         }
       ],
       "EndpointProperties": [
@@ -3331,7 +3331,7 @@
     },
     {
       "Route": "Identity/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
-      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3356,7 +3356,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 18:21:00 GMT"
+          "Value": "Sat, 17 May 2025 20:41:47 GMT"
         }
       ],
       "EndpointProperties": [
@@ -3368,7 +3368,7 @@
     },
     {
       "Route": "Identity/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
-      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3393,7 +3393,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 18:21:00 GMT"
+          "Value": "Sat, 17 May 2025 20:41:47 GMT"
         }
       ],
       "EndpointProperties": [
@@ -3405,7 +3405,7 @@
     },
     {
       "Route": "Identity/lib/bootstrap/dist/css/bootstrap-reboot.css",
-      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3430,7 +3430,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 18:21:00 GMT"
+          "Value": "Sat, 17 May 2025 20:41:47 GMT"
         }
       ],
       "EndpointProperties": [
@@ -3442,7 +3442,7 @@
     },
     {
       "Route": "Identity/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
-      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3467,7 +3467,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 18:21:00 GMT"
+          "Value": "Sat, 17 May 2025 20:41:47 GMT"
         }
       ],
       "EndpointProperties": [
@@ -3479,7 +3479,7 @@
     },
     {
       "Route": "Identity/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
-      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3504,7 +3504,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 18:21:00 GMT"
+          "Value": "Sat, 17 May 2025 20:41:47 GMT"
         }
       ],
       "EndpointProperties": [
@@ -3516,7 +3516,7 @@
     },
     {
       "Route": "Identity/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
-      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3541,7 +3541,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 18:21:00 GMT"
+          "Value": "Sat, 17 May 2025 20:41:47 GMT"
         }
       ],
       "EndpointProperties": [
@@ -3553,7 +3553,7 @@
     },
     {
       "Route": "Identity/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
-      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3578,7 +3578,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 18:21:00 GMT"
+          "Value": "Sat, 17 May 2025 20:41:47 GMT"
         }
       ],
       "EndpointProperties": [
@@ -3590,7 +3590,7 @@
     },
     {
       "Route": "Identity/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
-      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3615,7 +3615,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 18:21:00 GMT"
+          "Value": "Sat, 17 May 2025 20:41:47 GMT"
         }
       ],
       "EndpointProperties": [
@@ -3627,7 +3627,7 @@
     },
     {
       "Route": "Identity/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
-      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3652,7 +3652,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 18:21:00 GMT"
+          "Value": "Sat, 17 May 2025 20:41:47 GMT"
         }
       ],
       "EndpointProperties": [
@@ -3664,7 +3664,7 @@
     },
     {
       "Route": "Identity/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
-      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3689,7 +3689,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 18:21:00 GMT"
+          "Value": "Sat, 17 May 2025 20:41:47 GMT"
         }
       ],
       "EndpointProperties": [
@@ -3701,7 +3701,7 @@
     },
     {
       "Route": "Identity/lib/bootstrap/dist/css/bootstrap-utilities.css",
-      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3726,7 +3726,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 18:21:00 GMT"
+          "Value": "Sat, 17 May 2025 20:41:47 GMT"
         }
       ],
       "EndpointProperties": [
@@ -3738,7 +3738,7 @@
     },
     {
       "Route": "Identity/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
-      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3763,7 +3763,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 18:21:00 GMT"
+          "Value": "Sat, 17 May 2025 20:41:47 GMT"
         }
       ],
       "EndpointProperties": [
@@ -3775,7 +3775,7 @@
     },
     {
       "Route": "Identity/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
-      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3800,7 +3800,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 18:21:00 GMT"
+          "Value": "Sat, 17 May 2025 20:41:47 GMT"
         }
       ],
       "EndpointProperties": [
@@ -3812,7 +3812,7 @@
     },
     {
       "Route": "Identity/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
-      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3837,7 +3837,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 18:21:00 GMT"
+          "Value": "Sat, 17 May 2025 20:41:47 GMT"
         }
       ],
       "EndpointProperties": [
@@ -3849,7 +3849,7 @@
     },
     {
       "Route": "Identity/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
-      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3874,7 +3874,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 18:21:00 GMT"
+          "Value": "Sat, 17 May 2025 20:41:47 GMT"
         }
       ],
       "EndpointProperties": [
@@ -3886,7 +3886,7 @@
     },
     {
       "Route": "Identity/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
-      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3911,7 +3911,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 18:21:00 GMT"
+          "Value": "Sat, 17 May 2025 20:41:47 GMT"
         }
       ],
       "EndpointProperties": [
@@ -3923,7 +3923,7 @@
     },
     {
       "Route": "Identity/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
-      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3948,7 +3948,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 18:21:00 GMT"
+          "Value": "Sat, 17 May 2025 20:41:47 GMT"
         }
       ],
       "EndpointProperties": [
@@ -3960,7 +3960,7 @@
     },
     {
       "Route": "Identity/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
-      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3985,7 +3985,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 18:21:00 GMT"
+          "Value": "Sat, 17 May 2025 20:41:47 GMT"
         }
       ],
       "EndpointProperties": [
@@ -3997,7 +3997,7 @@
     },
     {
       "Route": "Identity/lib/bootstrap/dist/css/bootstrap.css",
-      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.css",
+      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4022,7 +4022,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 18:21:00 GMT"
+          "Value": "Sat, 17 May 2025 20:41:47 GMT"
         }
       ],
       "EndpointProperties": [
@@ -4034,7 +4034,7 @@
     },
     {
       "Route": "Identity/lib/bootstrap/dist/css/bootstrap.css.map",
-      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.css.map",
+      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4059,7 +4059,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 18:21:00 GMT"
+          "Value": "Sat, 17 May 2025 20:41:47 GMT"
         }
       ],
       "EndpointProperties": [
@@ -4071,7 +4071,7 @@
     },
     {
       "Route": "Identity/lib/bootstrap/dist/css/bootstrap.min.css",
-      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.min.css",
+      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4096,7 +4096,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 18:21:00 GMT"
+          "Value": "Sat, 17 May 2025 20:41:47 GMT"
         }
       ],
       "EndpointProperties": [
@@ -4108,7 +4108,7 @@
     },
     {
       "Route": "Identity/lib/bootstrap/dist/css/bootstrap.min.css.map",
-      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4133,7 +4133,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 18:21:00 GMT"
+          "Value": "Sat, 17 May 2025 20:41:47 GMT"
         }
       ],
       "EndpointProperties": [
@@ -4145,7 +4145,7 @@
     },
     {
       "Route": "Identity/lib/bootstrap/dist/css/bootstrap.rtl.css",
-      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4170,7 +4170,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 18:21:00 GMT"
+          "Value": "Sat, 17 May 2025 20:41:47 GMT"
         }
       ],
       "EndpointProperties": [
@@ -4182,7 +4182,7 @@
     },
     {
       "Route": "Identity/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
-      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4207,7 +4207,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 18:21:00 GMT"
+          "Value": "Sat, 17 May 2025 20:41:47 GMT"
         }
       ],
       "EndpointProperties": [
@@ -4219,7 +4219,7 @@
     },
     {
       "Route": "Identity/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
-      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4244,7 +4244,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 18:21:00 GMT"
+          "Value": "Sat, 17 May 2025 20:41:47 GMT"
         }
       ],
       "EndpointProperties": [
@@ -4256,7 +4256,7 @@
     },
     {
       "Route": "Identity/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
-      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4281,7 +4281,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 18:21:00 GMT"
+          "Value": "Sat, 17 May 2025 20:41:47 GMT"
         }
       ],
       "EndpointProperties": [
@@ -4293,7 +4293,7 @@
     },
     {
       "Route": "Identity/lib/bootstrap/dist/js/bootstrap.bundle.js",
-      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.bundle.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4318,7 +4318,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 18:21:00 GMT"
+          "Value": "Sat, 17 May 2025 20:41:47 GMT"
         }
       ],
       "EndpointProperties": [
@@ -4330,7 +4330,7 @@
     },
     {
       "Route": "Identity/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
-      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4355,7 +4355,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 18:21:00 GMT"
+          "Value": "Sat, 17 May 2025 20:41:47 GMT"
         }
       ],
       "EndpointProperties": [
@@ -4367,7 +4367,7 @@
     },
     {
       "Route": "Identity/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
-      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4392,7 +4392,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 18:21:00 GMT"
+          "Value": "Sat, 17 May 2025 20:41:47 GMT"
         }
       ],
       "EndpointProperties": [
@@ -4404,7 +4404,7 @@
     },
     {
       "Route": "Identity/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
-      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4429,7 +4429,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 18:21:00 GMT"
+          "Value": "Sat, 17 May 2025 20:41:47 GMT"
         }
       ],
       "EndpointProperties": [
@@ -4441,7 +4441,7 @@
     },
     {
       "Route": "Identity/lib/bootstrap/dist/js/bootstrap.esm.js",
-      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.esm.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4466,7 +4466,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 18:21:00 GMT"
+          "Value": "Sat, 17 May 2025 20:41:47 GMT"
         }
       ],
       "EndpointProperties": [
@@ -4478,7 +4478,7 @@
     },
     {
       "Route": "Identity/lib/bootstrap/dist/js/bootstrap.esm.js.map",
-      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4503,7 +4503,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 18:21:00 GMT"
+          "Value": "Sat, 17 May 2025 20:41:47 GMT"
         }
       ],
       "EndpointProperties": [
@@ -4515,7 +4515,7 @@
     },
     {
       "Route": "Identity/lib/bootstrap/dist/js/bootstrap.esm.min.js",
-      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4540,7 +4540,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 18:21:00 GMT"
+          "Value": "Sat, 17 May 2025 20:41:47 GMT"
         }
       ],
       "EndpointProperties": [
@@ -4552,7 +4552,7 @@
     },
     {
       "Route": "Identity/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
-      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4577,7 +4577,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 18:21:00 GMT"
+          "Value": "Sat, 17 May 2025 20:41:47 GMT"
         }
       ],
       "EndpointProperties": [
@@ -4589,7 +4589,7 @@
     },
     {
       "Route": "Identity/lib/bootstrap/dist/js/bootstrap.js",
-      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.js",
+      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4614,7 +4614,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 18:21:00 GMT"
+          "Value": "Sat, 17 May 2025 20:41:47 GMT"
         }
       ],
       "EndpointProperties": [
@@ -4626,7 +4626,7 @@
     },
     {
       "Route": "Identity/lib/bootstrap/dist/js/bootstrap.js.map",
-      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.js.map",
+      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4651,7 +4651,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 18:21:00 GMT"
+          "Value": "Sat, 17 May 2025 20:41:47 GMT"
         }
       ],
       "EndpointProperties": [
@@ -4663,7 +4663,7 @@
     },
     {
       "Route": "Identity/lib/bootstrap/dist/js/bootstrap.min.js",
-      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.min.js",
+      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4688,7 +4688,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 18:21:00 GMT"
+          "Value": "Sat, 17 May 2025 20:41:47 GMT"
         }
       ],
       "EndpointProperties": [
@@ -4700,7 +4700,7 @@
     },
     {
       "Route": "Identity/lib/bootstrap/dist/js/bootstrap.min.js.map",
-      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4725,7 +4725,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 18:21:00 GMT"
+          "Value": "Sat, 17 May 2025 20:41:47 GMT"
         }
       ],
       "EndpointProperties": [
@@ -4737,7 +4737,7 @@
     },
     {
       "Route": "Identity/lib/bootstrap/LICENSE",
-      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/bootstrap/LICENSE",
+      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/bootstrap/LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4762,7 +4762,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 18:21:00 GMT"
+          "Value": "Sat, 17 May 2025 20:41:47 GMT"
         }
       ],
       "EndpointProperties": [
@@ -4774,7 +4774,7 @@
     },
     {
       "Route": "Identity/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.js",
-      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.js",
+      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4799,7 +4799,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 18:21:00 GMT"
+          "Value": "Sat, 17 May 2025 20:41:47 GMT"
         }
       ],
       "EndpointProperties": [
@@ -4811,7 +4811,7 @@
     },
     {
       "Route": "Identity/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js",
-      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js",
+      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4836,7 +4836,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 18:21:00 GMT"
+          "Value": "Sat, 17 May 2025 20:41:47 GMT"
         }
       ],
       "EndpointProperties": [
@@ -4848,7 +4848,7 @@
     },
     {
       "Route": "Identity/lib/jquery-validation-unobtrusive/LICENSE.txt",
-      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/jquery-validation-unobtrusive/LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4873,7 +4873,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 18:21:00 GMT"
+          "Value": "Sat, 17 May 2025 20:41:47 GMT"
         }
       ],
       "EndpointProperties": [
@@ -4885,7 +4885,7 @@
     },
     {
       "Route": "Identity/lib/jquery-validation/dist/additional-methods.js",
-      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/jquery-validation/dist/additional-methods.js",
+      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/jquery-validation/dist/additional-methods.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4910,7 +4910,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 18:21:00 GMT"
+          "Value": "Sat, 17 May 2025 20:41:47 GMT"
         }
       ],
       "EndpointProperties": [
@@ -4922,7 +4922,7 @@
     },
     {
       "Route": "Identity/lib/jquery-validation/dist/additional-methods.min.js",
-      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/jquery-validation/dist/additional-methods.min.js",
+      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/jquery-validation/dist/additional-methods.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4947,7 +4947,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 18:21:00 GMT"
+          "Value": "Sat, 17 May 2025 20:41:47 GMT"
         }
       ],
       "EndpointProperties": [
@@ -4959,7 +4959,7 @@
     },
     {
       "Route": "Identity/lib/jquery-validation/dist/jquery.validate.js",
-      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/jquery-validation/dist/jquery.validate.js",
+      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/jquery-validation/dist/jquery.validate.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4984,7 +4984,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 18:21:00 GMT"
+          "Value": "Sat, 17 May 2025 20:41:47 GMT"
         }
       ],
       "EndpointProperties": [
@@ -4996,7 +4996,7 @@
     },
     {
       "Route": "Identity/lib/jquery-validation/dist/jquery.validate.min.js",
-      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/jquery-validation/dist/jquery.validate.min.js",
+      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/jquery-validation/dist/jquery.validate.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5021,7 +5021,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 18:21:00 GMT"
+          "Value": "Sat, 17 May 2025 20:41:47 GMT"
         }
       ],
       "EndpointProperties": [
@@ -5033,7 +5033,7 @@
     },
     {
       "Route": "Identity/lib/jquery-validation/LICENSE.md",
-      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/jquery-validation/LICENSE.md",
+      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/jquery-validation/LICENSE.md",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5058,7 +5058,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 18:21:00 GMT"
+          "Value": "Sat, 17 May 2025 20:41:47 GMT"
         }
       ],
       "EndpointProperties": [
@@ -5070,7 +5070,7 @@
     },
     {
       "Route": "Identity/lib/jquery/dist/jquery.js",
-      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/jquery/dist/jquery.js",
+      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/jquery/dist/jquery.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5095,7 +5095,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 18:21:00 GMT"
+          "Value": "Sat, 17 May 2025 20:41:47 GMT"
         }
       ],
       "EndpointProperties": [
@@ -5107,7 +5107,7 @@
     },
     {
       "Route": "Identity/lib/jquery/dist/jquery.min.js",
-      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/jquery/dist/jquery.min.js",
+      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/jquery/dist/jquery.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5132,7 +5132,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 18:21:00 GMT"
+          "Value": "Sat, 17 May 2025 20:41:47 GMT"
         }
       ],
       "EndpointProperties": [
@@ -5144,7 +5144,7 @@
     },
     {
       "Route": "Identity/lib/jquery/dist/jquery.min.map",
-      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/jquery/dist/jquery.min.map",
+      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/jquery/dist/jquery.min.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5169,7 +5169,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 18:21:00 GMT"
+          "Value": "Sat, 17 May 2025 20:41:47 GMT"
         }
       ],
       "EndpointProperties": [
@@ -5181,7 +5181,7 @@
     },
     {
       "Route": "Identity/lib/jquery/dist/jquery.slim.js",
-      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/jquery/dist/jquery.slim.js",
+      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/jquery/dist/jquery.slim.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5206,7 +5206,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 18:21:00 GMT"
+          "Value": "Sat, 17 May 2025 20:41:47 GMT"
         }
       ],
       "EndpointProperties": [
@@ -5218,7 +5218,7 @@
     },
     {
       "Route": "Identity/lib/jquery/dist/jquery.slim.min.js",
-      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/jquery/dist/jquery.slim.min.js",
+      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/jquery/dist/jquery.slim.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5243,7 +5243,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 18:21:00 GMT"
+          "Value": "Sat, 17 May 2025 20:41:47 GMT"
         }
       ],
       "EndpointProperties": [
@@ -5255,7 +5255,7 @@
     },
     {
       "Route": "Identity/lib/jquery/dist/jquery.slim.min.map",
-      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/jquery/dist/jquery.slim.min.map",
+      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/jquery/dist/jquery.slim.min.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5280,7 +5280,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 18:21:00 GMT"
+          "Value": "Sat, 17 May 2025 20:41:47 GMT"
         }
       ],
       "EndpointProperties": [
@@ -5292,7 +5292,7 @@
     },
     {
       "Route": "Identity/lib/jquery/LICENSE.txt",
-      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.5/staticwebassets/V5/lib/jquery/LICENSE.txt",
+      "AssetFile": "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/staticwebassets/V5/lib/jquery/LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5317,7 +5317,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 18:21:00 GMT"
+          "Value": "Sat, 17 May 2025 20:41:47 GMT"
         }
       ],
       "EndpointProperties": [

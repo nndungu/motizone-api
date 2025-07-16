@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MotiZone")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c3ff98aefb497a5cec83fc4e52c203b94b651efb")]
 [assembly: System.Reflection.AssemblyProductAttribute("MotiZone")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MotiZone")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

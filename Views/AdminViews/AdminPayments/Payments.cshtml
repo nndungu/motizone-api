@@ -1,0 +1,18 @@
+@model List<MotiZone.Models.Payment>
+<h2>All Payments</h2>
+<table class="table">
+    <thead>
+    <tr><th>User</th><th>Amount</th><th>Method</th><th>Date</th></tr>
+    </thead>
+    <tbody>
+    @foreach (var payment in Model)
+    {
+        <tr>
+            <td>@payment.User.Email</td>
+            <td>KES @payment.Amount</td>
+            <td>@payment.PaymentMethod</td>
+            <td>@payment.PaidAt.ToString("g")</td>
+        </tr>
+    }
+    </tbody>
+</table>

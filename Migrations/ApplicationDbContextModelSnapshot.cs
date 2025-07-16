@@ -157,9 +157,6 @@ namespace MotiZone.Migrations
                     b.Property<DateTime>("DateAdded")
                         .HasColumnType("datetime(6)");
 
-                    b.Property<string>("Name")
-                        .HasColumnType("longtext");
-
                     b.Property<int?>("OrderId")
                         .HasColumnType("int");
 
@@ -171,9 +168,6 @@ namespace MotiZone.Migrations
 
                     b.Property<int>("Quantity")
                         .HasColumnType("int");
-
-                    b.Property<string>("Type")
-                        .HasColumnType("longtext");
 
                     b.Property<int?>("UserId")
                         .HasColumnType("int");
@@ -188,8 +182,6 @@ namespace MotiZone.Migrations
                     b.HasIndex("OrderId");
 
                     b.HasIndex("PartId");
-
-                    b.HasIndex("UserId");
 
                     b.HasIndex("VehicleId");
 
@@ -250,21 +242,61 @@ namespace MotiZone.Migrations
                     b.ToTable("FinancingApplications");
                 });
 
+            modelBuilder.Entity("MotiZone.Models.MpesaTransaction", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<decimal>("Amount")
+                        .HasColumnType("decimal(65,30)");
+
+                    b.Property<string>("PhoneNumber")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<DateTime>("Timestamp")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<string>("TransactionId")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("MpesaTransactions");
+                });
+
             modelBuilder.Entity("MotiZone.Models.Order", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
+                    b.Property<string>("DeliveryAddress")
+                        .HasColumnType("longtext");
+
                     b.Property<DateTime>("OrderDate")
                         .HasColumnType("datetime(6)");
 
-                    b.Property<string>("Status")
-                        .IsRequired()
+                    b.Property<string>("PaymentMethod")
                         .HasColumnType("longtext");
+
+                    b.Property<string>("PaymentStatus")
+                        .HasColumnType("longtext");
+
+                    b.Property<int>("Status")
+                        .HasColumnType("int");
 
                     b.Property<decimal>("TotalAmount")
                         .HasColumnType("decimal(65,30)");
+
+                    b.Property<string>("TransactionId")
+                        .HasColumnType("longtext");
 
                     b.Property<int>("UserId")
                         .HasColumnType("int");
@@ -280,6 +312,9 @@ namespace MotiZone.Migrations
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<int?>("CustomizationId")
                         .HasColumnType("int");
 
                     b.Property<int>("OrderId")
@@ -298,6 +333,8 @@ namespace MotiZone.Migrations
                         .HasColumnType("int");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("CustomizationId");
 
                     b.HasIndex("OrderId");
 
@@ -363,6 +400,8 @@ namespace MotiZone.Migrations
                         .HasColumnType("int");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("UserId");
 
                     b.ToTable("Payments");
                 });
@@ -532,9 +571,6 @@ namespace MotiZone.Migrations
                     b.Property<string>("PasswordHash")
                         .HasColumnType("longtext");
 
-                    b.Property<byte[]>("PasswordSalt")
-                        .HasColumnType("longblob");
-
                     b.Property<string>("PhoneNumber")
                         .HasColumnType("longtext");
 
@@ -552,7 +588,6 @@ namespace MotiZone.Migrations
                         .HasColumnType("tinyint(1)");
 
                     b.Property<string>("UserName")
-                        .IsRequired()
                         .HasMaxLength(256)
                         .HasColumnType("varchar(256)");
 
@@ -678,7 +713,7 @@ namespace MotiZone.Migrations
                         .OnDelete(DeleteBehavior.Restrict);
 
                     b.HasOne("MotiZone.Models.Order", "Order")
-                        .WithMany("Items")
+                        .WithMany()
                         .HasForeignKey("OrderId")
                         .OnDelete(DeleteBehavior.Cascade);
 
@@ -686,10 +721,6 @@ namespace MotiZone.Migrations
                         .WithMany()
                         .HasForeignKey("PartId")
                         .OnDelete(DeleteBehavior.Restrict);
-
-                    b.HasOne("MotiZone.Models.User", "User")
-                        .WithMany()
-                        .HasForeignKey("UserId");
 
                     b.HasOne("MotiZone.Models.Vehicle", "Vehicle")
                         .WithMany()
@@ -701,8 +732,6 @@ namespace MotiZone.Migrations
                     b.Navigation("Order");
 
                     b.Navigation("Part");
-
-                    b.Navigation("User");
 
                     b.Navigation("Vehicle");
                 });
@@ -731,8 +760,12 @@ namespace MotiZone.Migrations
 
             modelBuilder.Entity("MotiZone.Models.OrderItem", b =>
                 {
-                    b.HasOne("MotiZone.Models.Order", "Order")
+                    b.HasOne("MotiZone.Models.Customization", "Customization")
                         .WithMany()
+                        .HasForeignKey("CustomizationId");
+
+                    b.HasOne("MotiZone.Models.Order", "Order")
+                        .WithMany("Items")
                         .HasForeignKey("OrderId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -745,11 +778,24 @@ namespace MotiZone.Migrations
                         .WithMany()
                         .HasForeignKey("VehicleId");
 
+                    b.Navigation("Customization");
+
                     b.Navigation("Order");
 
                     b.Navigation("Part");
 
                     b.Navigation("Vehicle");
+                });
+
+            modelBuilder.Entity("MotiZone.Models.Payment", b =>
+                {
+                    b.HasOne("MotiZone.Models.User", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("MotiZone.Models.Rental", b =>

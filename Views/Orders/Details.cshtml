@@ -1,11 +1,47 @@
-@model List<MotiZone.Models.Order>
+@model MotiZone.Models.Order
 
+<h2>Order Receipt - #@Model.Id</h2>
+<p><strong>Date:</strong> @Model.OrderDate.ToLocalTime()</p>
+<p><strong>Total:</strong> KES @Model.TotalAmount</p>
+
+<table class="table">
+    <thead>
+    <tr>
+        <th>Item</th>
+        <th>Type</th>
+        <th>Qty</th>
+        <th>Price (KES)</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model.Items)
+    {
+        <tr>
+            <td>
+                @item.Vehicle?.Name ?? item.Part?.Name ?? item.Customization?.Name
+            </td>
+            <td>
+                @(
+                item.VehicleId != null ? "Vehicle" :
+                item.PartId != null ? "Part" :
+                item.CustomizationId != null ? "Customization" : "Unknown"
+                )
+            </td>
+            <td>@item.Quantity</td>
+            <td>@item.Price</td>
+        </tr>
+    }
+    </tbody>
+</table>
+
+<a asp-action="Index" class="btn btn-secondary">Back to Orders</a>
+
+@*
+@model List<MotiZone.Models.Order>
 @{
     ViewData["Title"] = "Your Orders";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-
-<h2>Your Orders</h2>
 
 @if (Model == null || !Model.Any())
 {
@@ -46,4 +82,6 @@ else
             </div>
         </div>
     }
+    <a asp-action="Index" class="btn btn-secondary">Back to Orders</a>
 }
+*@

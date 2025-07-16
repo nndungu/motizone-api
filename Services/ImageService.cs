@@ -8,7 +8,6 @@ public class ImageService
     {
         _env = env;
     }
-
     public List<string> GetImagesFromFolder(string relativeFolderPath)
     {
         var wwwRootPath = _env.WebRootPath;
@@ -23,5 +22,22 @@ public class ImageService
             .ToList();
 
         return files;
+    }
+    public async Task<string> SaveImageAsync(IFormFile imageFile, string folder)
+    {
+        if (imageFile == null || imageFile.Length == 0) return null;
+
+        var uploadsPath = Path.Combine(_env.WebRootPath, "images", folder);
+        Directory.CreateDirectory(uploadsPath);
+
+        var fileName = Guid.NewGuid().ToString() + Path.GetExtension(imageFile.FileName);
+        var fullPath = Path.Combine(uploadsPath, fileName);
+
+        using (var stream = new FileStream(fullPath, FileMode.Create))
+        {
+            await imageFile.CopyToAsync(stream);
+        }
+
+        return $"/images/{folder}/{fileName}";
     }
 }

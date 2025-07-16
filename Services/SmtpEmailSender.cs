@@ -1,11 +1,7 @@
-using System.Net;
-using System.Net.Mail;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Identity.UI.Services;
+using MailKit.Net.Smtp;
+using MimeKit;
 
-namespace MotiZone.Services;
-
-public class SmtpEmailSender : IEmailSender
+public class SmtpEmailSender
 {
     private readonly IConfiguration _configuration;
 
@@ -14,23 +10,29 @@ public class SmtpEmailSender : IEmailSender
         _configuration = configuration;
     }
 
-    public Task SendEmailAsync(string email, string subject, string message)
+    public async Task SendEmailAsync(string to, string subject, string htmlBody, byte[]? attachment = null, string? filename = null)
     {
-        var smtpClient = new SmtpClient(_configuration["Email:SmtpServer:Host"])
-        {
-            Port = int.Parse(_configuration["Email:SmtpServer:Port"]),
-            Credentials = new NetworkCredential(_configuration["Email:SmtpServer:Username"], _configuration["Email:SmtpServer:Password"]),
-            EnableSsl = true
-        };
+        var message = new MimeMessage();
+        message.From.Add(new MailboxAddress("MotiZone", _configuration["Email:SmtpServer:From"]));
+        message.To.Add(MailboxAddress.Parse(to));
+        message.Subject = subject;
 
-        var mailMessage = new MailMessage
+        var builder = new BodyBuilder { HtmlBody = htmlBody };
+
+        if (attachment != null && filename != null)
         {
-            From = new MailAddress(_configuration["Email:SmtpServer:From"]),
-            Subject = subject,
-            Body = message,
-            IsBodyHtml = true,
-        };
-        mailMessage.To.Add(email);
-        return smtpClient.SendMailAsync(mailMessage);
+            builder.Attachments.Add(filename, attachment, ContentType.Parse("application/pdf"));
+        }
+
+        message.Body = builder.ToMessageBody();
+
+        using var smtp = new SmtpClient();
+        await smtp.ConnectAsync(_configuration["Email:SmtpServer:Host"], 587, false);
+        await smtp.AuthenticateAsync(
+            _configuration["Email:SmtpServer:Username"],
+            _configuration["Email:SmtpServer:Password"]
+        );
+        await smtp.SendAsync(message);
+        await smtp.DisconnectAsync(true);
     }
 }
