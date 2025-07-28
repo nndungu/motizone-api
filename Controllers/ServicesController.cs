@@ -6,6 +6,8 @@ using MotiZone.Services;
 
 namespace MotiZone.Controllers;
 
+[ApiController]
+[Route("services/[action]")]
 [Authorize]
 public class ServicesController : Controller
 {
@@ -24,12 +26,14 @@ public class ServicesController : Controller
     // USER: View & Book Services
     // ------------------------
 
+    [HttpGet]
     public async Task<IActionResult> Index()
     {
         var services = await _serviceService.GetAllAsync();
         return View(services);
     }
 
+    [HttpGet]
     public async Task<IActionResult> Details(int id)
     {
         var service = await _serviceService.GetByIdAsync(id);
@@ -63,7 +67,7 @@ public class ServicesController : Controller
     // ------------------------
     // ADMIN: Manage Services
     // ------------------------
-
+    [HttpGet]
     [Authorize(Roles = "Admin")]
     public IActionResult Create() => View();
 
@@ -77,6 +81,7 @@ public class ServicesController : Controller
         return RedirectToAction(nameof(Index));
     }
 
+    [HttpGet]
     [Authorize(Roles = "Admin")]
     public async Task<IActionResult> Edit(int id)
     {
@@ -94,6 +99,7 @@ public class ServicesController : Controller
         return RedirectToAction(nameof(Index));
     }
 
+    [HttpGet]
     [Authorize(Roles = "Admin")]
     public async Task<IActionResult> Delete(int id)
     {
@@ -101,7 +107,7 @@ public class ServicesController : Controller
         return service == null ? NotFound() : View(service);
     }
 
-    [HttpPost, ActionName("Delete")]
+    [HttpPost]
     [Authorize(Roles = "Admin")]
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> ConfirmDelete(int id)

@@ -9,7 +9,9 @@ using MotiZone.Services;
 
 namespace MotiZone.Controllers;
 
-[Authorize]
+[ApiController]
+[Authorize(Roles = "User")]
+[Route("cart/[action]")]
 public class CartController : Controller
 {
     private readonly ApplicationDbContext _context;
@@ -25,12 +27,14 @@ public class CartController : Controller
         _userManager = userManager;
     }
 
+    [HttpGet]
     private async Task<int?> GetUserIdAsync()
     {
         var user = await _userManager.GetUserAsync(User);
         return user?.Id;
     }
 
+    [HttpGet]
     public async Task<IActionResult> Index()
     {
         var userId = await GetUserIdAsync();
@@ -40,7 +44,7 @@ public class CartController : Controller
         return View(items);
     }
 
-    [HttpPost]
+    [HttpPatch]
     public async Task<IActionResult> AddVehicle(int vehicleId)
     {
         var userId = await GetUserIdAsync();
@@ -51,7 +55,7 @@ public class CartController : Controller
         return RedirectToAction(nameof(Index));
     }
 
-    [HttpPost]
+    [HttpOptions]
     public async Task<IActionResult> AddPart(int partId)
     {
         var userId = await GetUserIdAsync();
@@ -62,22 +66,22 @@ public class CartController : Controller
         return RedirectToAction(nameof(Index));
     }
 
-    [HttpPost]
+    [HttpOptions]
     public async Task<IActionResult> AddCustomization(int customizationId)
     {
         var userId = await GetUserIdAsync();
         if (userId == null) return Unauthorized();
 
         await _cartService.AddCustomizationToCartAsync(customizationId, userId.Value);
-        //TempData["Message"] = "Customization added to cart.";
+        TempData["Message"] = "Customization added to cart.";
         return RedirectToAction(nameof(Index));
     }
 
-    [HttpPost]
+    [HttpOptions]
     public async Task<IActionResult> Remove(int id)
     {
         await _cartService.RemoveFromCartAsync(id);
-       // TempData["Message"] = "Item removed from cart.";
+       TempData["Message"] = "Item removed from cart.";
         return RedirectToAction(nameof(Index));
     }
 
@@ -88,19 +92,16 @@ public class CartController : Controller
         if (userId == null) return Unauthorized();
 
         await _cartService.ClearCartAsync(userId.Value);
-        //TempData["Message"] = "Cart cleared.";
+        TempData["Message"] = "Cart cleared.";
         return RedirectToAction(nameof(Index));
     }
-
+    
     [HttpGet]
-    [Authorize]
-    public IActionResult Checkout()
+    /*public IActionResult Checkout()
     {
         return View();
-    }
+    }*/
     
-    [HttpPost]
-    [Authorize]
     public async Task<IActionResult> Checkout(CheckoutViewModel model)
     {
         var userId = _userManager.GetUserId(User);
@@ -138,7 +139,7 @@ public class CartController : Controller
         _context.CartItems.RemoveRange(cartItems);
         await _context.SaveChangesAsync();
         
-       //await SendOrderConfirmationEmail(order);
+        //await SendOrderConfirmationEmail(order);
 
        return RedirectToAction("Details", "Order", new { id = order.Id });
     }

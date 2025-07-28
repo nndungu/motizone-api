@@ -1,15 +1,24 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using MotiZone.Data;
 using MotiZone.Models;
 
+namespace MotiZone.Controllers.Admin;
+
+[ApiController]
+[Authorize(Roles = "Admin")]
+[Route("Admin/[controller]/[action]")]
 public class AdminServicesController : Controller
 {
     private readonly ApplicationDbContext _context;
     public AdminServicesController(ApplicationDbContext context) => _context = context;
 
-    public async Task<IActionResult> Index() => View(await _context.Services.ToListAsync());
+    [HttpGet]
+    public async Task<IActionResult> 
+        Index() => View(await _context.Services.ToListAsync());
 
+    [HttpGet]
     public IActionResult Create() => View();
 
     [HttpPost]
@@ -24,6 +33,7 @@ public class AdminServicesController : Controller
         return View(service);
     }
 
+    [HttpGet]
     public async Task<IActionResult> Edit(int id)
     {
         var service = await _context.Services.FindAsync(id);
@@ -41,14 +51,15 @@ public class AdminServicesController : Controller
         }
         return View(service);
     }
-
+    
+    [HttpGet]
     public async Task<IActionResult> Delete(int id)
     {
         var service = await _context.Services.FindAsync(id);
         return service == null ? NotFound() : View(service);
     }
 
-    [HttpPost, ActionName("Delete")]
+    [HttpPost]
     public async Task<IActionResult> DeleteConfirmed(int id)
     {
         var service = await _context.Services.FindAsync(id);

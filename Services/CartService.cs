@@ -4,7 +4,6 @@ using MotiZone.Models;
 using MotiZone.Models.ViewModels;
 
 namespace MotiZone.Services;
-
 public class CartService
 {
     private readonly ApplicationDbContext _context;

@@ -6,6 +6,8 @@ using MotiZone.Services;
 
 namespace MotiZone.Controllers;
 
+[ApiController]
+[Route("vehicle/[action]")]
 public class VehiclesController : Controller
 {
     private readonly VehicleService _vehicleService;
@@ -18,7 +20,7 @@ public class VehiclesController : Controller
         _imageService = imageService;
         _context = context;
     }
-
+    [HttpGet]
     public async Task<IActionResult> Index(string? make, string? model, int? year)
     {
         var vehicles = await _vehicleService.GetFilteredVehiclesAsync(make, model, year);
@@ -34,18 +36,28 @@ public class VehiclesController : Controller
 
         return View(viewModel);
     }
+    
+    [HttpGet]
+    public IActionResult Create() => View();
+
     [HttpPost]
     public async Task<IActionResult> Create(Vehicle vehicle, IFormFile imageFile)
     {
         if (!ModelState.IsValid) return View(vehicle);
 
-        vehicle.ImageUrl = await _imageService.SaveImageAsync(imageFile, "vehicles");
+      //  vehicle.ImageUrl = await _imageService.SaveImageAsync(imageFile, "vehicles");
+        if (imageFile != null && imageFile.Length > 0)
+        {
+            vehicle.ImageUrl = await _imageService.SaveImageAsync(imageFile, "vehicles");
+        }
 
         _context.Vehicles.Add(vehicle);
         await _context.SaveChangesAsync();
 
         return RedirectToAction("Index");
     }
+    
+    [HttpGet]
     public async Task<IActionResult> Details(int id)
     {
         var vehicle = await _vehicleService.GetVehicleByIdAsync(id);

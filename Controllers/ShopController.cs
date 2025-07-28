@@ -3,12 +3,11 @@ using MotiZone.Models.ViewModels;
 using MotiZone.Services;
 using System.Threading.Tasks;
 
-namespace MotiZone.Controllers
-{
-    /// <summary>
-    /// Handles requests related to the Shop view, including vehicle and part browsing.
-    /// </summary>
-    public class ShopController : Controller
+namespace MotiZone.Controllers;
+
+[ApiController]
+[Route("shop/[action]")]
+public class ShopController : Controller
     {
         private readonly VehicleService _vehicleService;
         private readonly PartService _partService;
@@ -45,4 +44,3 @@ namespace MotiZone.Controllers
             return View(viewModel);
         }
     }
-}

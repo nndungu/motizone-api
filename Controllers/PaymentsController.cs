@@ -7,6 +7,8 @@ using Stripe.Checkout;
 
 namespace MotiZone.Controllers;
 
+[ApiController]
+[Route("payments/[action]")]
 [Authorize]
 public class PaymentController : Controller
 {
@@ -21,11 +23,14 @@ public class PaymentController : Controller
         _userManager = userManager;
     }
 
+    [HttpGet]
     private int? GetUserId()
     {
         var userIdStr = _userManager.GetUserId(User);
         return int.TryParse(userIdStr, out int id) ? id : null;
     }
+    
+    [HttpGet]
     public async Task<IActionResult> Checkout()
     {
         var userId = GetUserId();
@@ -72,11 +77,15 @@ public class PaymentController : Controller
 
         return Redirect(session.Url);
     }
+    
+    [HttpGet]
     public IActionResult Success()
     {
         ViewBag.Message = "Payment successful! Thank you for your purchase.";
         return View();
     }
+    
+    [HttpGet]
     public IActionResult Cancel()
     {
         ViewBag.Message = "Payment cancelled! Please try again.";
@@ -94,12 +103,13 @@ public class PaymentController : Controller
 
         if (total <= 0) return BadRequest("Cart is empty.");
 
-     //   await _paymentService.CreatePaymentAsync(userId.Value, total, "Cash"); // or "Card"
+        await _paymentService.CreatePaymentAsync(userId.Value, total, "Cash"); // or "Card"
         await _cartService.ClearCartAsync(userId.Value);
 
         return RedirectToAction("Receipt");
     }
 
+    [HttpGet]
     public async Task<IActionResult> Receipt()
     {
         var userId = GetUserId();

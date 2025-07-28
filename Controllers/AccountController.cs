@@ -3,10 +3,11 @@ using Microsoft.AspNetCore.Mvc;
 using MotiZone.Models;
 using MotiZone.Models.ViewModels;
 
-namespace MotiZone.Controllers
+namespace MotiZone.Controllers;
+
+[Route("account/[action]")]
+public class AccountController : Controller
 {
-    public class AccountController : Controller
-    {
         private readonly SignInManager<User> _signInManager;
         private readonly UserManager<User> _userManager;
 
@@ -44,7 +45,7 @@ namespace MotiZone.Controllers
 
                 return !string.IsNullOrEmpty(returnUrl) && Url.IsLocalUrl(returnUrl)
                     ? Redirect(returnUrl)
-                    : RedirectToAction("Index", "Home");
+                    : RedirectToAction("Index", "Orders");
             }
 
             ModelState.AddModelError(string.Empty, "Invalid login attempt.");
@@ -92,4 +93,4 @@ namespace MotiZone.Controllers
             return View(model);
         }
     }
-}
+

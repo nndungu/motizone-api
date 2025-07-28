@@ -1,7 +1,7 @@
+using System.Reflection;
 using System.Text;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using MotiZone.Authorization;
@@ -14,22 +14,27 @@ namespace MotiZone;
 public class Startup
 {
     public Startup(IConfiguration configuration) => Configuration = configuration;
-
-    public IConfiguration Configuration { get; }
+    private IConfiguration Configuration { get; }
 
     public void ConfigureServices(IServiceCollection services)
     {
         services.AddRazorPages();
         services.AddControllers();
+        
+        services.AddEndpointsApiExplorer(); 
+        services.AddSwaggerGen(c =>
+        {
+            var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+            var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
+            c.IncludeXmlComments(xmlPath);
+        });
 
-        // DbContext
         services.AddDbContext<ApplicationDbContext>(options =>
             options.UseMySql(
                 Configuration.GetConnectionString("DefaultConnection"),
-                new MySqlServerVersion(new Version(10, 11, 6)) // MariaDB version
+                new MySqlServerVersion(new Version(10, 11, 6))
             ));
 
-        // Identity Setup
         services.AddIdentity<User, IdentityRole<int>>(options =>
         {
             options.SignIn.RequireConfirmedAccount = false;
@@ -38,7 +43,6 @@ public class Startup
         .AddEntityFrameworkStores<ApplicationDbContext>()
         .AddDefaultTokenProviders();
 
-        // JWT Authentication Setup
         var jwtKey = Configuration["Jwt:Key"];
         var key = Encoding.UTF8.GetBytes(jwtKey);
 
@@ -61,24 +65,20 @@ public class Startup
             };
         });
 
-        // Authorization Policies
         services.AddAuthorization(options =>
         {
             options.AddPolicy(RolePolicy.Admin, policy => policy.RequireRole(RolePolicy.Admin));
             options.AddPolicy(RolePolicy.Customer, policy => policy.RequireRole(RolePolicy.Customer));
         });
 
-        // CORS
         services.AddCors(options =>
         {
             options.AddDefaultPolicy(builder =>
                 builder.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod());
         });
 
-        // Email (example with SMTP)
         services.AddTransient<SmtpEmailSender>();
 
-        // App Services
         services.AddScoped<VehicleService>();
         services.AddScoped<PartService>();
         services.AddScoped<UserService>();
@@ -91,21 +91,28 @@ public class Startup
         services.AddScoped<FinancingService>();
         services.AddScoped<CustomizationService>();
         services.AddScoped<JwtHelper>();
-        /*services.AddHttpClient<DarajaGateway>();
-        services.Configure<StripeSettings>(builder.Configuration.GetSection("Stripe"));
-        StripeConfiguration.ApiKey = builder.Configuration["Stripe:SecretKey"];*/
     }
 
     public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
     {
-        if (env.IsDevelopment()) app.UseDeveloperExceptionPage();
-        else app.UseExceptionHandler("/Error");
+        if (env.IsDevelopment()){
+                app.UseDeveloperExceptionPage();
+                app.UseSwagger();
+                app.UseSwaggerUI(c => 
+                { 
+                    c.SwaggerEndpoint("/swagger/v1/swagger.json", "MotiZone API v1");
+                    c.RoutePrefix = "swagger"; 
+                });
+        }
+        else 
+        {
+            app.UseExceptionHandler("/Error");
+        }
 
         app.UseStaticFiles();
         app.UseRouting();
 
         app.UseCors();
-
         app.UseAuthentication();
         app.UseAuthorization();
 

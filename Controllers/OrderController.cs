@@ -6,6 +6,8 @@ using MotiZone.Models;
 using MotiZone.Services;
 using MotiZone.Models.ViewModels;
 
+[ApiController]
+[Route("orders/[action]")]
 [Authorize]
 public class OrdersController : Controller
 {
@@ -14,6 +16,8 @@ public class OrdersController : Controller
     {
         _context = context;
     }
+    
+    [HttpGet]
     public async Task<IActionResult> Index()
     {
         var userId = int.Parse(User.FindFirst("UserId")?.Value ?? "0");
@@ -31,6 +35,9 @@ public class OrdersController : Controller
         
         return View();
     }
+    
+    [HttpGet]
+    [Authorize(Roles = "User")]
     public async Task<IActionResult> Details(int? id)
     {
         var order = await _context.Orders
@@ -48,6 +55,8 @@ public class OrdersController : Controller
         
         return View(order);
     }
+    
+    [HttpGet]
     [Authorize(Roles = "Admin")]
     public async Task<IActionResult> All()
     {
@@ -65,8 +74,8 @@ public class OrdersController : Controller
         return View("AllOrders", orders);
     }
 
-    [Authorize(Roles = "Admin")]
     [HttpPost]
+    [Authorize(Roles = "Admin")]
     public async Task<IActionResult> UpdateStatus(int id, OrderStatus status)
     {
         var order = await _context.Orders.FindAsync(id);

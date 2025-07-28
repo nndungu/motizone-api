@@ -5,5 +5,6 @@ public class CustomizationViewModel
     public string? Type { get; set; }
     public string? Description { get; set; }
     
-    public List<Customization> Customizations { get; set; } = new();
+    public List<Customization> Items { get; set; } = new();
+    
 }

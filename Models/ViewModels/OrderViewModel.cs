@@ -1,5 +1,3 @@
-// ViewModels/OrderViewModel.cs
-
 using MotiZone.Models;
 
 namespace MotiZone.Models.ViewModels;

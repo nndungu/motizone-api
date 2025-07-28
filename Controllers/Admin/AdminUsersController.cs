@@ -6,6 +6,7 @@ using MotiZone.Models;
 namespace MotiZone.Controllers.Admin;
 
 [Authorize(Roles = "Admin")]
+[Authorize(Roles = "Admin")]
 [Route("Admin/[controller]/[action]")]
 public class AdminUsersController : Controller
 {
@@ -15,7 +16,8 @@ public class AdminUsersController : Controller
     {
         _userManager = userManager;
     }
-
+    
+    [HttpGet]
     public IActionResult Index()
     {
         var users = _userManager.Users.ToList();

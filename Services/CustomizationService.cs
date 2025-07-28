@@ -1,7 +1,9 @@
 using Microsoft.EntityFrameworkCore;
 using MotiZone.Data;
 using MotiZone.Models;
+using MotiZone.Models.ViewModels;
 
+namespace MotiZone.Services;
 public class CustomizationService
 {
     private readonly ApplicationDbContext _context;

@@ -4,7 +4,11 @@ using Microsoft.EntityFrameworkCore;
 using MotiZone.Data;
 using MotiZone.Models;
 
+namespace MotiZone.Controllers.Admin;
+
+[ApiController]
 [Authorize(Roles = "Admin")]
+[Route("Admin/[controller]/[action]")]
 public class AdminCustomizationsController : Controller
 {
     private readonly ApplicationDbContext _context;
@@ -14,14 +18,14 @@ public class AdminCustomizationsController : Controller
         _context = context;
     }
 
-    // GET: AdminCustomizations
+    [HttpGet]
     public async Task<IActionResult> Index()
     {
         var customizations = await _context.Customizations.ToListAsync();
         return View(customizations);
     }
 
-    // GET: AdminCustomizations/Details/5
+    [HttpGet]
     public async Task<IActionResult> Details(int? id)
     {
         if (id == null) return NotFound();
@@ -32,7 +36,7 @@ public class AdminCustomizationsController : Controller
         return View(customization);
     }
 
-    // GET: AdminCustomizations/Edit/5
+    [HttpGet]
     public async Task<IActionResult> Edit(int? id)
     {
         if (id == null) return NotFound();
@@ -43,7 +47,6 @@ public class AdminCustomizationsController : Controller
         return View(customization);
     }
 
-    // POST: AdminCustomizations/Edit/5
     [HttpPost]
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> Edit(int id, Customization customization)
@@ -67,7 +70,7 @@ public class AdminCustomizationsController : Controller
         return View(customization);
     }
 
-    // GET: AdminCustomizations/Delete/5
+    [HttpGet]
     public async Task<IActionResult> Delete(int? id)
     {
         if (id == null) return NotFound();
@@ -79,8 +82,7 @@ public class AdminCustomizationsController : Controller
         return View(customization);
     }
 
-    // POST: AdminCustomizations/Delete/5
-    [HttpPost, ActionName("Delete")]
+    [HttpPost,]
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> DeleteConfirmed(int id)
     {

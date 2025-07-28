@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "EncJFt/miFA=",
+  "dgSpecHash": "1L5NsV91e/Q=",
   "success": true,
   "projectFilePath": "/home/ecorp/Workspace/MotiZone/MotiZone/MotiZone.csproj",
   "expectedPackageFiles": [
@@ -20,7 +20,7 @@
     "/home/ecorp/.nuget/packages/microsoft.aspnetcore.dataprotection/8.0.5/microsoft.aspnetcore.dataprotection.8.0.5.nupkg.sha512",
     "/home/ecorp/.nuget/packages/microsoft.aspnetcore.dataprotection.abstractions/8.0.5/microsoft.aspnetcore.dataprotection.abstractions.8.0.5.nupkg.sha512",
     "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.entityframeworkcore/8.0.5/microsoft.aspnetcore.identity.entityframeworkcore.8.0.5.nupkg.sha512",
-    "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.6/microsoft.aspnetcore.identity.ui.9.0.6.nupkg.sha512",
+    "/home/ecorp/.nuget/packages/microsoft.aspnetcore.identity.ui/8.0.5/microsoft.aspnetcore.identity.ui.8.0.5.nupkg.sha512",
     "/home/ecorp/.nuget/packages/microsoft.aspnetcore.metadata/8.0.5/microsoft.aspnetcore.metadata.8.0.5.nupkg.sha512",
     "/home/ecorp/.nuget/packages/microsoft.aspnetcore.mvc.razor.extensions/6.0.0/microsoft.aspnetcore.mvc.razor.extensions.6.0.0.nupkg.sha512",
     "/home/ecorp/.nuget/packages/microsoft.aspnetcore.mvc.razor.runtimecompilation/8.0.5/microsoft.aspnetcore.mvc.razor.runtimecompilation.8.0.5.nupkg.sha512",
@@ -48,6 +48,7 @@
     "/home/ecorp/.nuget/packages/microsoft.extensions.dependencymodel/8.0.0/microsoft.extensions.dependencymodel.8.0.0.nupkg.sha512",
     "/home/ecorp/.nuget/packages/microsoft.extensions.diagnostics.abstractions/8.0.0/microsoft.extensions.diagnostics.abstractions.8.0.0.nupkg.sha512",
     "/home/ecorp/.nuget/packages/microsoft.extensions.fileproviders.abstractions/8.0.0/microsoft.extensions.fileproviders.abstractions.8.0.0.nupkg.sha512",
+    "/home/ecorp/.nuget/packages/microsoft.extensions.fileproviders.embedded/8.0.5/microsoft.extensions.fileproviders.embedded.8.0.5.nupkg.sha512",
     "/home/ecorp/.nuget/packages/microsoft.extensions.hosting.abstractions/8.0.0/microsoft.extensions.hosting.abstractions.8.0.0.nupkg.sha512",
     "/home/ecorp/.nuget/packages/microsoft.extensions.identity.core/8.0.5/microsoft.extensions.identity.core.8.0.5.nupkg.sha512",
     "/home/ecorp/.nuget/packages/microsoft.extensions.identity.stores/8.0.5/microsoft.extensions.identity.stores.8.0.5.nupkg.sha512",

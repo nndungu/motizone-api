@@ -3,7 +3,7 @@ using MotiZone.Data;
 using MotiZone.Models;
 
 namespace MotiZone.Services
-{
+{ 
     public class PartService
     {
         private readonly ApplicationDbContext _context;
@@ -12,36 +12,20 @@ namespace MotiZone.Services
         {
             _context = context;
         }
-
-        /// <summary>
-        /// Returns all vehicle parts.
-        /// </summary>
         public async Task<List<Part>> GetPartsAsync()
         {
             return await _context.Parts.ToListAsync();
         }
-
-        /// <summary>
-        /// Returns a specific part by ID.
-        /// </summary>
         public async Task<Part?> GetPartByIdAsync(int id)
         {
             return await _context.Parts.FindAsync(id);
         }
-
-        /// <summary>
-        /// Adds a new vehicle part.
-        /// </summary>
         public async Task<Part> AddPartAsync(Part part)
         {
             _context.Parts.Add(part);
             await _context.SaveChangesAsync();
             return part;
         }
-
-        /// <summary>
-        /// Deletes a part by ID.
-        /// </summary>
         public async Task<bool> DeletePartAsync(int id)
         {
             var part = await _context.Parts.FindAsync(id);
@@ -51,10 +35,6 @@ namespace MotiZone.Services
             await _context.SaveChangesAsync();
             return true;
         }
-
-        /// <summary>
-        /// Returns parts filtered by name and/or category.
-        /// </summary>
         public async Task<List<Part>> GetFilteredPartsAsync(string? name, string? category)
         {
             var query = _context.Parts.AsQueryable();

@@ -8,6 +8,8 @@ using QuestPDF.Fluent;
 
 namespace MotiZone.Controllers;
 
+[ApiController]
+[Route("rentals/[action]")]
 public class RentalsController : Controller
 {
     private readonly RentalService _rentalService;
@@ -18,11 +20,8 @@ public class RentalsController : Controller
         _rentalService = rentalService;
         _imageService = imageService;
     }
-
-    // ===========================
-    // USER VIEWS
-    // ===========================
-
+    
+    [HttpGet]
     public async Task<IActionResult> Index()
     {
         var rentals = await _rentalService.GetAllRentalsAsync();
@@ -30,7 +29,8 @@ public class RentalsController : Controller
         ViewBag.Images = images;
         return View(rentals);
     }
-
+    
+    [HttpPost]
     public async Task<IActionResult> Details(int id)
     {
         var rental = await _rentalService.GetRentalByIdAsync(id);
@@ -53,12 +53,14 @@ public class RentalsController : Controller
     // ===========================
 
     [Authorize(Roles = "Admin")]
+    [HttpPost]
     public async Task<IActionResult> AdminList()
     {
         var rentals = await _rentalService.GetAllRentalsAsync();
         return View(rentals);
     }
 
+    [HttpGet]
     [Authorize(Roles = "Admin")]
     public async Task<IActionResult> Create()
     {
@@ -67,7 +69,6 @@ public class RentalsController : Controller
     }
 
     [HttpPost]
-    [Authorize(Roles = "Admin")]
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> Create(Rental rental, IFormFile? imageFile)
     {
@@ -94,6 +95,7 @@ public class RentalsController : Controller
         return RedirectToAction(nameof(AdminList));
     }
 
+    [HttpGet]
     [Authorize(Roles = "Admin")]
     public async Task<IActionResult> Edit(int id)
     {
@@ -105,7 +107,6 @@ public class RentalsController : Controller
     }
 
     [HttpPost]
-    [Authorize(Roles = "Admin")]
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> Edit(Rental rental)
     {
@@ -141,6 +142,7 @@ public class RentalsController : Controller
     // ===========================
     // TODO: Invoice PDF generation
     // ===========================
+    [HttpGet]
     [Authorize]
     public async Task<IActionResult> Invoice(int id)
     {

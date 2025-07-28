@@ -6,6 +6,11 @@
         <ImplicitUsings>enable</ImplicitUsings>
     </PropertyGroup>
 
+    <PropertyGroup>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <NoWarn>$(NoWarn);1591</NoWarn>
+    </PropertyGroup>
+    
     <ItemGroup>
         <!-- ASP.NET Core 8 -->
         <PackageReference Include="ClosedXML" Version="0.105.0" />
@@ -14,7 +19,7 @@
         <PackageReference Include="Microsoft.AspNetCore.Authorization" Version="8.0.5" />
         <PackageReference Include="Microsoft.AspNetCore.DataProtection" Version="8.0.5" />
         <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.5" />
-        <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="9.0.6" />
+       <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="8.0.5" />
         <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="8.0.5" />
 
         <!-- EF Core 8 (required by Pomelo 8) -->
@@ -110,10 +115,10 @@
       <_ContentIncludedByDefault Remove="Pages\Account\RegisterConfirmation.cshtml" />
       <_ContentIncludedByDefault Remove="Pages\Account\ResetPassword.cshtml" />
       <_ContentIncludedByDefault Remove="Pages\Account\ResetPasswordConfirmation.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Financing\Apply.cshtml" />
     </ItemGroup>
 
     <ItemGroup>
-      <AdditionalFiles Include="Pages\Financing\Apply.cshtml" />
       <AdditionalFiles Include="Views\AdminViews\AdminOrders\Details.cshtml" />
       <AdditionalFiles Include="Views\AdminViews\AdminOrders\Index.cshtml" />
     </ItemGroup>

@@ -3,28 +3,27 @@ using MotiZone.Services;
 using MotiZone.PdfDocuments;
 using QuestPDF.Fluent;
 
-namespace MotiZone.Controllers
+namespace MotiZone.Controllers;
+[Route("invoice")]
+public class InvoiceController : Controller
 {
-    public class InvoiceController : Controller
+    private readonly OrderService _orderService;
+
+    public InvoiceController(OrderService orderService)
     {
-        private readonly OrderService _orderService;
+        _orderService = orderService;
+    }
 
-        public InvoiceController(OrderService orderService)
-        {
-            _orderService = orderService;
-        }
+    [HttpGet("{id}")]
+    public async Task<IActionResult> GetInvoice(int id)
+    {
+        var order = await _orderService.GetOrderByIdAsync(id);
+        if (order == null)
+            return NotFound();
 
-        [HttpGet("/invoice/pdf/{id}")]
-        public async Task<IActionResult> Pdf(int id)
-        {
-            var order = await _orderService.GetOrderByIdAsync(id);
-            if (order == null)
-                return NotFound();
+        var document = new OrderInvoiceDocument(order);
+        var pdfBytes = document.GeneratePdf();
 
-            var doc = new OrderInvoiceDocument(order);
-            var stream = doc.GeneratePdf();
-
-            return File(stream, "application/pdf", $"Invoice_{id}.pdf");
-        }
+        return File(pdfBytes, "application/pdf", $"Invoice_{order.Id}.pdf");
     }
 }

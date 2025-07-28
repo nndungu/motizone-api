@@ -20,12 +20,6 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[/home/ecorp/Workspace/MotiZone/MotiZone/Pages/Financing/Apply.cshtml]
-build_metadata.AdditionalFiles.TargetPath = 
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRmluYW5jaW5nL0FwcGx5LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-build_metadata.AdditionalFiles.CssScope = 
-
 [/home/ecorp/Workspace/MotiZone/MotiZone/Views/AdminViews/AdminOrders/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = 
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5WaWV3cy9BZG1pbk9yZGVycy9EZXRhaWxzLmNzaHRtbA==
@@ -166,12 +160,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2hlY2tvdXQvUmVjZWlwdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/ecorp/Workspace/MotiZone/MotiZone/Views/Customizations/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9taXphdGlvbnMvRGV0YWlscy5jc2h0bWw=
+[/home/ecorp/Workspace/MotiZone/MotiZone/Views/Customization/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9taXphdGlvbi9EZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/ecorp/Workspace/MotiZone/MotiZone/Views/Customizations/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9taXphdGlvbnMvSW5kZXguY3NodG1s
+[/home/ecorp/Workspace/MotiZone/MotiZone/Views/Customization/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9taXphdGlvbi9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/home/ecorp/Workspace/MotiZone/MotiZone/Views/Home/Index.cshtml]

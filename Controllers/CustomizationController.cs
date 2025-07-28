@@ -17,8 +17,8 @@ public class CustomizationController : Controller
     // Public: View all customizations
     public async Task<IActionResult> Index()
     {
-        var customizations = await _customizationService.GetAvailableCustomizationsAsync();
-        return View(customizations);
+        var customization = await _customizationService.GetAvailableCustomizationsAsync();
+        return Ok(customization);
     }
 
     // Public: View a single customization
@@ -33,13 +33,13 @@ public class CustomizationController : Controller
     // ========================
 
     [Authorize(Roles = "Admin")]
-    public IActionResult Create() => View();
+    public IActionResult Create() => Ok();
 
     [HttpPost]
     [Authorize(Roles = "Admin")]
     public async Task<IActionResult> Create(Customization customization)
     {
-        if (!ModelState.IsValid) return View(customization);
+        if (!ModelState.IsValid) return Ok(customization);
 
         await _customizationService.AddCustomizationAsync(customization);
         return RedirectToAction(nameof(Index));
@@ -49,14 +49,14 @@ public class CustomizationController : Controller
     public async Task<IActionResult> Edit(int id)
     {
         var customization = await _customizationService.GetCustomizationByIdAsync(id);
-        return customization == null ? NotFound() : View(customization);
+        return customization == null ? NotFound() : Ok(customization);
     }
 
     [HttpPost]
     [Authorize(Roles = "Admin")]
     public async Task<IActionResult> Edit(Customization customization)
     {
-        if (!ModelState.IsValid) return View(customization);
+        if (!ModelState.IsValid) return Ok(customization);
 
         await _customizationService.UpdateCustomizationAsync(customization);
         return RedirectToAction(nameof(Index));
@@ -66,7 +66,7 @@ public class CustomizationController : Controller
     public async Task<IActionResult> Delete(int id)
     {
         var customization = await _customizationService.GetCustomizationByIdAsync(id);
-        return customization == null ? NotFound() : View(customization);
+        return customization == null ? NotFound() : Ok(customization);
     }
 
     [HttpPost, ActionName("Delete")]

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MotiZone</name>
+    </assembly>
+    <members>
+        <member name="M:MotiZone.Controllers.ShopController.Index(System.Nullable{System.Int32},System.String,System.String,System.Nullable{System.Int32})">
+            <summary>
+            Displays the shop index view with filtered vehicles and all available parts.
+            </summary>
+            <param name="shopId">Optional ID of a specific shop</param>
+            <param name="make">Vehicle make to filter</param>
+            <param name="model">Vehicle model to filter</param>
+            <param name="year">Vehicle year to filter</param>
+        </member>
+        <member name="T:MotiZone.Migrations.InitialCreate">
+            <inheritdoc />
+        </member>
+        <member name="M:MotiZone.Migrations.InitialCreate.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MotiZone.Migrations.InitialCreate.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MotiZone.Migrations.InitialCreate.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>

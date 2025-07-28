@@ -3,9 +3,11 @@ using Microsoft.AspNetCore.Mvc;
 using MotiZone.Models;
 using MotiZone.Services;
 
-namespace MotiZone.Controllers;
+namespace MotiZone.Controllers.Admin;
 
+[ApiController]
 [Authorize(Roles = "Admin")]
+[Route("Admin/[controller]/[action]")]
 public class AdminVehiclesController : Controller
 {
     private readonly VehicleService _vehicleService;
@@ -17,12 +19,14 @@ public class AdminVehiclesController : Controller
         _env = env;
     }
 
+    [HttpGet]
     public async Task<IActionResult> Index()
     {
         var vehicles = await _vehicleService.GetAllVehiclesAsync();
         return View(vehicles);
     }
 
+    [HttpGet]
     public IActionResult Create()
     {
         return View();
@@ -57,6 +61,7 @@ public class AdminVehiclesController : Controller
         return View(vehicle);
     }
 
+    [HttpGet]
     public async Task<IActionResult> Edit(int id)
     {
         var vehicle = await _vehicleService.GetVehicleByIdAsync(id);
@@ -72,13 +77,14 @@ public class AdminVehiclesController : Controller
         return RedirectToAction("Index");
     }
 
+    [HttpGet]
     public async Task<IActionResult> Delete(int id)
     {
         var vehicle = await _vehicleService.GetVehicleByIdAsync(id);
         return vehicle == null ? NotFound() : View(vehicle);
     }
 
-    [HttpPost, ActionName("Delete")]
+    [HttpPost]
     public async Task<IActionResult> DeleteConfirmed(int id)
     {
         await _vehicleService.DeleteVehicleAsync(id);

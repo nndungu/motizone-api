@@ -6,6 +6,7 @@ using MotiZone.Services;
 
 namespace MotiZone.Controllers;
 
+[ApiController]
 [Route("admin")]
 public class AdminController : Controller
 {

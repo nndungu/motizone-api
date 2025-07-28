@@ -9,7 +9,9 @@ using MotiZone.Services;
 
 namespace MotiZone.Controllers.Admin;
 
+[ApiController]
 [Authorize(Roles = "Admin")]
+[Route("Admin/[controller]/[action]")]
 public class AdminOrdersController : Controller
 {
     private readonly ApplicationDbContext _context;
@@ -18,6 +20,7 @@ public class AdminOrdersController : Controller
         _context = context;
     }
 
+    [HttpGet]
     public async Task<IActionResult> Index()
     {
         var orders = await _context.Orders
@@ -27,6 +30,7 @@ public class AdminOrdersController : Controller
         return View(orders);
     }
 
+    [HttpGet]
     public async Task<IActionResult> Details(int id)
     {
         var order = await _context.Orders 

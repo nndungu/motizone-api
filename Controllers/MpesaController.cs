@@ -3,6 +3,8 @@ using MotiZone.Services;
 
 namespace MotiZone.Controllers;
 
+[ApiController]
+[Route("payments/[action]")]
 public class MpesaController : Controller
 {
     private readonly MpesaService _mpesa;

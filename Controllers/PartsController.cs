@@ -16,11 +16,11 @@ public class PartsController : Controller
         _imageService = imageService;
     }
 
-    // MVC View (Shop page)
+    
     [HttpGet]
-    public IActionResult Index(string? name, string? category)
+    public async Task<IActionResult> Index(string name, string category)
     {
-        var filteredParts = _partService.GetFilteredPartsAsync(name, category).Result;
+        var filteredParts = await _partService.GetFilteredPartsAsync(name, category);
         var images = _imageService.GetImagesFromFolder("~/images/shop/shop.jpg");
         ViewBag.Images = images;
 
@@ -34,17 +34,22 @@ public class PartsController : Controller
         return View(viewModel);
     }
     
+    [HttpGet]
     public async Task<IActionResult> GetAllParts()
     {
         var parts = await _partService.GetPartsAsync();
         return Ok(parts);
     }
+    
+    [HttpGet]
     public async Task<IActionResult> Get(int id)
     {
         var part = await _partService.GetPartByIdAsync(id);
         if (part == null) return NotFound();
         return Ok(part);
     }
+    
+    [HttpPost]
     public async Task<ActionResult<Part>> Create([FromBody] Part part)
     {
         if (!ModelState.IsValid)
@@ -54,7 +59,8 @@ public class PartsController : Controller
         return CreatedAtAction(nameof(Get), new { id = created.Id }, created);
     }
     
-    public async Task<IActionResult> Edit(int id)
+    [HttpDelete]
+    public async Task<IActionResult> Delete(int id)
     {
         var deleted = await _partService.DeletePartAsync(id);
         if (!deleted) return NotFound();
